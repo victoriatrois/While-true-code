@@ -19,6 +19,14 @@ programa
         }
         }
         media = (nota[0] + nota[1] + nota[2])/3
-        escreva("Sua média anual é: ", media, ".\n")
+        
+        se (media >=70)
+        {
+            escreva("Você está aprovade.\nSua média foi ", media, ".\n")
+        }
+        senao
+        {
+            escreva("Você ficou abaixo da média.\nSua média foi ", media, ".\n")
+        }
 	}
 }
