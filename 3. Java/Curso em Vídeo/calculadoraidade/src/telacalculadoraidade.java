@@ -60,6 +60,8 @@ public class telacalculadoraidade extends javax.swing.JFrame {
         jLabel3.setText("Mês de Nascimento");
 
         txtMesNasc.setModel(new javax.swing.SpinnerNumberModel());
+        txtMesNasc.setToolTipText("");
+        txtMesNasc.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jLabel5.setText("Ano Atual");
 
