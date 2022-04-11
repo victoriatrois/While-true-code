@@ -25,7 +25,6 @@ public class DataSizeConverterScreen extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btnConvert = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         txtBit = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
@@ -39,18 +38,12 @@ public class DataSizeConverterScreen extends javax.swing.JFrame {
         txtTb = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
         txtZb = new javax.swing.JTextField();
+        btnConvert = new javax.swing.JButton();
         txtB = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
 
-        btnConvert.setText("Convert");
-        btnConvert.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnConvertActionPerformed(evt);
-            }
-        });
-
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(0, 255, 204));
+        setBackground(new java.awt.Color(241, 255, 255));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
         jLabel1.setText("Data Size Calculator");
@@ -84,6 +77,13 @@ public class DataSizeConverterScreen extends javax.swing.JFrame {
 
         txtZb.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtZb.setText("0");
+
+        btnConvert.setText("Convert");
+        btnConvert.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnConvertActionPerformed(evt);
+            }
+        });
 
         txtB.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtB.setText("0");
@@ -123,7 +123,10 @@ public class DataSizeConverterScreen extends javax.swing.JFrame {
                             .addComponent(jLabel5)
                             .addComponent(jLabel6)
                             .addComponent(jLabel7)
-                            .addComponent(jLabel4))))
+                            .addComponent(jLabel4)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(40, 40, 40)
+                        .addComponent(btnConvert, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -159,7 +162,9 @@ public class DataSizeConverterScreen extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtZb, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel6))
-                .addGap(59, 59, 59))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnConvert)
+                .addGap(18, 18, 18))
         );
 
         pack();
