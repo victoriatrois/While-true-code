@@ -33,6 +33,7 @@ public class DadosDoSistema {
         System.out.println(d.width + "x" + d.height);
         
         
+        
     }
     
 }
