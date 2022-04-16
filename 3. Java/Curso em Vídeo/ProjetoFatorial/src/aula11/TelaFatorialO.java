@@ -2,18 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package exercicioAula11;
+package aula11;
 
 /**
  *
  * @author v3gc
  */
-public class TelaProjetoFatorial extends javax.swing.JFrame {
+public class TelaFatorialO extends javax.swing.JFrame {
 
     /**
-     * Creates new form TelaProjetoFatorial
+     * Creates new form TelaFatorialO
      */
-    public TelaProjetoFatorial() {
+    public TelaFatorialO() {
         initComponents();
     }
 
@@ -29,12 +29,12 @@ public class TelaProjetoFatorial extends javax.swing.JFrame {
         txtNum = new javax.swing.JSpinner();
         jLabel1 = new javax.swing.JLabel();
         lblFatorial = new javax.swing.JLabel();
-        lblDetalhamento = new javax.swing.JLabel();
+        lblMultiplicacoes = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         txtNum.setFont(new java.awt.Font("Lucida Grande", 0, 24)); // NOI18N
-        txtNum.setModel(new javax.swing.SpinnerNumberModel(0, 0, 12, 1));
+        txtNum.setModel(new javax.swing.SpinnerNumberModel(0, null, 12, 1));
         txtNum.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 txtNumStateChanged(evt);
@@ -46,40 +46,43 @@ public class TelaProjetoFatorial extends javax.swing.JFrame {
 
         lblFatorial.setFont(new java.awt.Font("Lucida Grande", 0, 24)); // NOI18N
         lblFatorial.setForeground(new java.awt.Color(255, 51, 0));
+        lblFatorial.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lblFatorial.setText("1");
 
-        lblDetalhamento.setFont(new java.awt.Font("Lucida Grande", 0, 24)); // NOI18N
-        lblDetalhamento.setForeground(new java.awt.Color(204, 0, 0));
-        lblDetalhamento.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblDetalhamento.setText("jLabel2");
+        lblMultiplicacoes.setFont(new java.awt.Font("Lucida Grande", 0, 24)); // NOI18N
+        lblMultiplicacoes.setForeground(new java.awt.Color(204, 51, 0));
+        lblMultiplicacoes.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblMultiplicacoes.setText("o fatorial de 0 é 1");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(lblMultiplicacoes, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
+                        .addGap(336, 336, 336)
                         .addComponent(txtNum, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel1)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblFatorial)
-                        .addContainerGap(262, Short.MAX_VALUE))
-                    .addComponent(lblDetalhamento, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(lblFatorial, javax.swing.GroupLayout.DEFAULT_SIZE, 348, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(54, 54, 54)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtNum, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1)
                     .addComponent(lblFatorial))
-                .addGap(34, 34, 34)
-                .addComponent(lblDetalhamento)
-                .addGap(44, 44, 44))
+                .addGap(18, 18, 18)
+                .addComponent(lblMultiplicacoes)
+                .addContainerGap(69, Short.MAX_VALUE))
         );
 
         pack();
@@ -88,39 +91,63 @@ public class TelaProjetoFatorial extends javax.swing.JFrame {
     private void txtNumStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_txtNumStateChanged
         int num = Integer.parseInt(txtNum.getValue().toString());
         int fatorial = 1;
-        int contador = num;
-        String detalhamento = "";
+        String multiplicacoes = "";
         
-        while (contador >=1){
-            fatorial *= contador;
-            contador--;
+        if(num == 1){
+            fatorial *= num;
+            multiplicacoes = "1 x 1 = " + fatorial;
+        
+        }else{
+            for(int c = num; c>1; c--){
+            fatorial *= num;
+            multiplicacoes += c + " x ";
         }
-        while(contador>1){
-            detalhamento += contador + "*";
-            contador ++;
+        multiplicacoes += "1 = " + fatorial;
+        }
         
         lblFatorial.setText(Integer.toString(fatorial));
-        lblDetalhamento.setText(detalhamento + "=" + fatorial);
-                
-        
+        lblMultiplicacoes.setText(multiplicacoes);
     }//GEN-LAST:event_txtNumStateChanged
 
     /**
      * @param args the command line arguments
      */
-    
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(TelaFatorialO.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(TelaFatorialO.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(TelaFatorialO.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(TelaFatorialO.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new TelaProjetoFatorial().setVisible(true);
+                new TelaFatorialO().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel lblDetalhamento;
     private javax.swing.JLabel lblFatorial;
+    private javax.swing.JLabel lblMultiplicacoes;
     private javax.swing.JSpinner txtNum;
     // End of variables declaration//GEN-END:variables
 }
