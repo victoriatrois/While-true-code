@@ -5,6 +5,6 @@ idade tinyint,
 sexo char(1),
 peso float,
 altura float,
-nacionalidade varchar(20)pessoas
+nacionalidade varchar(20)
 );
 describe pessoas;
