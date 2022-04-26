@@ -8,7 +8,7 @@ add foreign key (cursopreferido)
 references cursos(idcurso);
 
 select * from gafanhotos;
-
+describe gafanhotos;
 
 /*para conectar uma FK com outros atributos da sua tabela de origem, utilizamos estes comandos:
 select entidade.atributo from entidade_da_FK join entidade_original*/
