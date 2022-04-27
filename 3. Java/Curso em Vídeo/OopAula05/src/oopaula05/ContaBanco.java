@@ -21,9 +21,9 @@ public class ContaBanco {
     public ContaBanco(){
     this.setSaldo(0);
     this.setStatus(false);
-    
-    //métodos acessores
     }
+
+    //métodos acessores
     public void setNumConta(int numConta){
         this.numConta = numConta;
     }

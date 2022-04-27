@@ -26,12 +26,19 @@ from consulta
 where id_convenio = 8;
 
 -- Todos os dados das internações em seus respectivos quartos, calculando o total da internação a partir do valor de diária do quarto e o número de dias entre a entrada e a alta.
-
 select internacao.id, quarto.numero as numero_quarto, internacao.data_entrada, internacao.previsao_alta, internacao.alta_efetiva, internacao.procedimentos, datediff(alta_efetiva, previsao_alta)*tipo_quarto.valor_diaria as valor_total
 from internacao join 
 (tipo_quarto join quarto
 on quarto.id_tipo_quarto = tipo_quarto.id)
 on internacao.id_quarto = quarto.id;
+
+-- Outra maneira
+select internacao.id, quarto.numero as quarto_numero, internacao.data_entrada,
+internacao.previsao_alta, internacao.alta_efetiva, internacao.procedimentos,
+datediff(data_entrada, alta_efetiva)*tipo_quarto.valor_diaria as valor_total
+from internacao, quarto, tipo_quarto
+where quarto.id_tipo_quarto = tipo_quarto.id and internacao.id_quarto = quarto.id
+order by numero;
 
 -- Data, procedimento e número de quarto de internações em quartos do tipo “apartamento”.
 select data_entrada, procedimentos, ID_quarto
@@ -41,7 +48,8 @@ on internacao.id_quarto = quarto.id
 where internacao.id_quarto = 91;
 
 -- Nome do paciente, data da consulta e especialidade de todas as consultas em que os pacientes eram menores de 18 anos na data da consulta e cuja especialidade não seja “pediatria”, ordenando por data de realização da consulta
-select paciente.nome as nome_paciente, consulta.data_, medico.id_categoria as especialidade
+
+select paciente.nome as nome_paciente, consulta.data_ as data_consulta, medico.id_categoria as especialidade
 from PACIENTE join
 (consulta join medico
 on medico.id_categoria = consulta.id_medico)
@@ -50,6 +58,7 @@ where medico.id_categoria = 11 and current_date() - paciente.nascimento < 18
 order by data_;
 
 -- Nome do paciente, nome do médico, data da internação e procedimentos das internações realizadas por médicos da especialidade “gastroenterologia”, que tenham acontecido em “enfermaria”.
+
 select paciente.nome as nome_paciente, medico.nome as nome_medico, internacao.data_entrada, internacao.procedimentos
 from paciente, medico, internacao
 where medico.id = 11 and id_quarto = 3;
