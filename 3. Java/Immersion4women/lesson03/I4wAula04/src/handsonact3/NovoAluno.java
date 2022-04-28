@@ -1,3 +1,5 @@
+package handsonact3;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -13,7 +15,7 @@ public class NovoAluno {
     private double nota1;
     private double nota2;
     
-    public NovoAluno(String nome, int codigo, double nota1, double nota2){
+    public NovoAluno(){
         this.nome = nome;
         this.codigo = codigo;
         this.nota1 = nota1;
@@ -41,7 +43,7 @@ public class NovoAluno {
         return this.nota1;
     }
     
-    public void setNota2(double nota1){
+    public void setNota2(double nota2){
         this.nota2 = nota2;
     }
     public double getNota2(){
@@ -49,8 +51,14 @@ public class NovoAluno {
     }
     
     public double calcularMedia(){
-        double media = (nota1+nota2)/2;
-        
-        return media;
+        return (this.getNota1()+this.getNota2())/2;
+    }
+    
+    public void estadoAtual(){
+        System.out.println("Nome: "+ this.getNome());
+        System.out.println("Codigo: "+ this.getCodigo());
+        System.out.println("Nota 1: "+ this.getNota1());
+        System.out.println("Nota 2: "+ this.getNota2());
+        System.out.println("Media: "+ calcularMedia());
     }
 }

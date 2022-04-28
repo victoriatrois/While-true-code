@@ -1,7 +1,7 @@
-package i4waula03;
+package exercise;
 
 
-import i4waula03.Produto;
+import webclass03.Produto;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
