@@ -48,20 +48,28 @@ on internacao.id_quarto = quarto.id
 where internacao.id_quarto = 91;
 
 -- Nome do paciente, data da consulta e especialidade de todas as consultas em que os pacientes eram menores de 18 anos na data da consulta e cuja especialidade não seja “pediatria”, ordenando por data de realização da consulta
+INSERT INTO consulta (ID, data_, horario, valor, ID_paciente, ID_convenio) VALUES ('61', '2020-04-10', '17:45:00', '300', '40', '8');
 
-select paciente.nome as nome_paciente, consulta.data_ as data_consulta, medico.id_categoria as especialidade
-from PACIENTE join
-(consulta join medico
-on medico.id_categoria = consulta.id_medico)
-on paciente.id=consulta.id_paciente
-where medico.id_categoria = 11 and current_date() - paciente.nascimento < 18
+select paciente.nome as nome_paciente, consulta.data_ as data_consulta, categoria.descricao as especialidade 
+from consulta
+join paciente ON consulta.id_paciente = paciente.id
+join medico on consulta.ID_medico = medico.id
+join categoria on categoria.id = medico.id_categoria
+where (year(current_date()) - year(paciente.nascimento) < 18) and descricao <> 'Pediatria'
 order by data_;
 
 -- Nome do paciente, nome do médico, data da internação e procedimentos das internações realizadas por médicos da especialidade “gastroenterologia”, que tenham acontecido em “enfermaria”.
+insert into INTERNACAO values ('99', '2019/03/07', '2019/03/10', '2019/03/12', 'Paciente teve complicações durante a execução de uma endoscopia. Teve uma hemorragia contida e ficou em observação até ficar estável', '89', '18', '37', '80', '85');
+UPDATE INTERNACAO SET ID_paciente_internado = 37 WHERE (ID = 99);
 
-select paciente.nome as nome_paciente, medico.nome as nome_medico, internacao.data_entrada, internacao.procedimentos
-from paciente, medico, internacao
-where medico.id = 11 and id_quarto = 3;
+select paciente.nome as nome_paciente, medico.nome as nome_medico, internacao.data_entrada, internacao.procedimentos 
+from internacao
+join medico ON medico.id = internacao.ID_medico_resposnsavel
+join quarto ON internacao.id_quarto = quarto.id
+join tipo_quarto on quarto.id_tipo_quarto = tipo_quarto.id
+join paciente ON paciente.id = internacao.id_paciente_internado
+join categoria ON categoria.id = medico.id_categoria 
+where categoria.descricao = 'Gastroenterologia' and tipo_quarto.descricao = 'Enfermaria';
 
 -- Os nomes dos médicos, seus CRMs e a quantidade de consultas que cada um realizou.
 select medico.nome, medico.crm, count(medico.id) as total_consultas
