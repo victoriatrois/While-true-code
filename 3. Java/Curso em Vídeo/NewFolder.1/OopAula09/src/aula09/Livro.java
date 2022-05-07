@@ -18,52 +18,54 @@ public class Livro implements Publicacao{
     private Pessoa leitor;
     
     //método construtor
-    public Livro(String tipo, String autor, int totalPag, Pessoa leitor){
+    public Livro(String titulo, String autor, int totalPag, Pessoa leitor){
         this.titulo = titulo;
         this.autor = autor;
         this.totalPag = totalPag;
+        this.aberto = false;
+        this.pagAtual = 0;
         this.leitor = leitor;
     }
     
     //métodos acessores
-    private String getTitulo(){
+    public String getTitulo(){
         return titulo;
     }
-    private void setTitulo(String titulo){
+    public void setTitulo(String titulo){
         this.titulo = titulo;
     }
     
-    private String getAutor(){
+    public String getAutor(){
         return autor;
     }
-    private void setAutor(String autor){
+    public void setAutor(String autor){
         this.autor = autor;
     }
     
-    private int getTotalPag(){
+    public int getTotalPag(){
         return totalPag;
     }
-    private void setTotalPag(int totalPag){
+    public void setTotalPag(int totalPag){
         this.totalPag = totalPag;
     }
     
-    private int getPagAtual(){
+    public int getPagAtual(){
         return pagAtual;
     }
-    private void setPagAtual(int pagAtual){
+    public void setPagAtual(int pagAtual){
         this.pagAtual = pagAtual;
     }
     
-    private boolean isAberto(){
+    public boolean isAberto(){
         return aberto;
     }
-    private void setAberto(boolean aberto){
+    public void setAberto(boolean aberto){
         this.aberto = aberto;
     }
     
     //métodos especiais
     public String detalhes(){
-        return "Livro{" + "titulo=" + titulo + ", autor=" + autor + ", totalPag=" + totalPag + ", pagAtual=" + pagAtual + ", aberto=" + aberto + ", leitor=" + leitor + '}';
+        return "Livro{" + "titulo: " + titulo + ", autor: " + autor + ",\ntotal de páginas: " + totalPag + ", página atual: " + pagAtual + ",\nestá aberto: " + aberto + ",\nleitor: " + leitor.getNome() + ", idade: " + leitor.getIdade() + ", sexo: " + leitor.getSexo() + '}';
     }
 
     @Override
@@ -80,13 +82,15 @@ public class Livro implements Publicacao{
     }
 
     @Override
-    public void folhear() {
-        if (this.isAberto()== false){
-            for (int i = this.getPagAtual(); i == 0; i-=1){
-            System.out.print(i + ", ");
+    public void folhear(int p) {
+        if (this.isAberto()){
+            if (p <= this.getTotalPag()) {
+            this.pagAtual = p;
+            } else {
+                System.out.println("Este livro tem apenas " + this.getTotalPag() + " páginas. Folheie no máximo até ela.");
             }
         } else {
-            System.out.println("Para folhear o livro ele precisa estar fechado.");
+            System.out.println("Para folhear o livro, abra-o.");
         }
     }
 
