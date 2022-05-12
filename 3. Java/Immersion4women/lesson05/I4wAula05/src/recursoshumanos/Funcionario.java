@@ -54,6 +54,7 @@ public class Funcionario {
     
     //métodos próprios
     public double calcularSalario(double salario, double desconto){
-        return salario - desconto;        
+        double salarioLiq = salario - desconto;
+        return salarioLiq;
     }
 }

@@ -51,7 +51,8 @@ public class NovoAluno {
     }
     
     public double calcularMedia(){
-        return (this.getNota1()+this.getNota2())/2;
+        double media = (this.getNota1()+this.getNota2())/2;
+        return media;
     }
     
     public void estadoAtual(){

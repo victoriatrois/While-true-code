@@ -29,7 +29,7 @@ public class Vendedor extends Funcionario{
     
     //métodos próprios
     public double calcularSalario(){
-        return (super.calcularSalario(this.getSalario(), this.getDesconto())) + this.comissao;
+        return super.calcularSalario(this.getSalario(),this.getDesconto()) + this.getComissao();
         
     }
 }
