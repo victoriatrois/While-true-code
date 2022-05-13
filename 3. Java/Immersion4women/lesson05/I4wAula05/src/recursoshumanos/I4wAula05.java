@@ -23,5 +23,4 @@ public class I4wAula05 {
         Vendedor v1 = new Vendedor(123456789, 1620.50, 120.45, 50.55);
         System.out.println("Salário líquido " + v1.calcularSalario(1620.50, 120.45) + ".");
     }
-    
 }
