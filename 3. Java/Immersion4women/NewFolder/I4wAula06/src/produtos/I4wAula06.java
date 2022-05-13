@@ -14,7 +14,9 @@ public class I4wAula06 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Computador comp1 = new Computador();
+        System.out.println("Código de barras: " + comp1.autenticaCodigo(1023932830));
+        System.out.println("Valor: " + comp1.calcularPreco(100, 20));
     }
     
 }

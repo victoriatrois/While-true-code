@@ -8,6 +8,6 @@ package produtos;
  *
  * @author v3gc
  */
-public interface Autenticacao {
-    
+public interface Autenticacao{
+    public abstract boolean autenticaCodigo(long codigoDeBarras);
 }

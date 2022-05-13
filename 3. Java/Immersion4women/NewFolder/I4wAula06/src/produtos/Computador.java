@@ -8,6 +8,18 @@ package produtos;
  *
  * @author v3gc
  */
-public class Computador {
+public class Computador extends Produto implements Autenticacao{
+    
+    @Override
+    public double calcularPreco(double valorCompra, double valorLucro){
+        double precoDeVenda = valorCompra + valorLucro;
+        return precoDeVenda;
+    }
+
+    @Override
+    public boolean autenticaCodigo(long codigo) {
+        return (codigo == codigoDeBarras);
+    }
+
     
 }
