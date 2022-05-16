@@ -17,7 +17,7 @@ public class I4wAula07 {
         Funcionario vendedor = new Vendedor(123456789, 1620.50, 120.45, 50.55);
         System.out.println("Salário líquido: " + vendedor.calcularSalario(1620.50, 120.45) + ".");
         Funcionario diarista = new Diarista(234657865, 8, 160);
-        System.out.println("Salário liquido: " + diarista.getSalario());
+        System.out.println("Salário liquido: " + diarista.getSalario() + ".");
     }
     
 }
