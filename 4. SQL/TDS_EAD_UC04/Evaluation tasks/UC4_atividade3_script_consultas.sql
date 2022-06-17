@@ -6,16 +6,15 @@ Necessários para o relatório data da venda, valor total; produtos vendidos, qu
 Ordena-se pela data de venda, as mais recentes primeiro.
 **/
 SELECT * FROM venda v, item_venda iv, produto p, cliente c, funcionario f
-WHERE v.id = iv.venda_id AND c.id = v.cliente_id AND p.id = iv.produto_id AND f.id = v.funcionario_id and tipo_pagamento = 'D'
+WHERE v.id = iv.venda_id AND c.id = v.cliente_id AND p.id = iv.produto_id AND f.id = v.funcionario_id and tipo_pagamento = 'D';
 
 /***
 consulta para encontrar todas as vendas de produtos de um dado fabricante
 Mostrar dados do produto, quantidade vendida, data da venda.
 Ordena-se pelo nome do produto.
 ***/
-SELECT * 
-FROM produto p, item_venda iv, venda v
-WHERE p.id = iv.produto_id AND v.id = iv.venda_id AND p.fabricante like '%lar%'
+SELECT * FROM produto p, item_venda iv, venda v
+WHERE p.id = iv.produto_id AND v.id = iv.venda_id AND p.fabricante like '%lar%';
  
 /***
 Relatório de vendas de produto por cliente.

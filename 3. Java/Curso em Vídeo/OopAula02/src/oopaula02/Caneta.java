@@ -15,6 +15,10 @@ public class Caneta {
     int carga;
     boolean tampada;
     
+    public Caneta(){
+        
+    }//método construtor
+    
     public void status(){
         System.out.println("Modelo: "+ this.modelo);
         System.out.println("Uma caneta "+ this.cor);

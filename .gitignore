@@ -163,3 +163,5 @@
 /3. Java/Curso em Vídeo/OopAula13/OopAula13/build/
 /3. Java/Immersion4women/lesson08/I4wAula08/nbproject/private/
 /3. Java/Immersion4women/lesson08/I4wAula08/build/
+.DS_Store
+.gitignore
