@@ -1,0 +1,26 @@
+//Criação de um novo banco NoSQL
+use('UC04_atividade05');
+
+/* 
+ * Inclusão dos dados presentes na tabela “funcionario” do banco de dados SQL usado nas atividades
+ * (Observe os relacionamentos dessa tabela com “cargo” e “usuario”.)
+ */
+ db.UC04_atividade05.insertMany([
+  { 'nome': 'Sílvio Cortês', 'telefone': '99 7898-1234', 'cpf': '84537768061', 'cargo_id': 2, 'usuario_id': 4},
+  { 'nome': 'Amaro Valadão', 'telefone': '99 7534-1234', 'cpf': '03074142057', 'cargo_id': 2, 'usuario_id': 5},
+  { 'nome': 'Marcos Valadão', 'telefone': '99 7534-7897', 'cpf': '40967947081', 'cargo_id': 2, 'usuario_id': 6},
+  { 'nome': 'Domingas Souza Sá', 'telefone': '99 7534-1234', 'cpf': '51077408048', 'cargo_id': 4, 'usuario_id': 7},
+  { 'nome': 'Marina Frazão', 'telefone': '99 7589-1854', 'cpf': '21788502000', 'cargo_id': 1, 'usuario_id': 8},
+  { 'nome': 'Joana Freitas', 'telefone': '99 7589-7534', 'cpf': '85690938025', 'cargo_id': 3, 'usuario_id': 9},
+  { 'nome': 'Aparício Dias', 'telefone': '99 7514-7884', 'cpf': '14131448025', 'cargo_id': 3, 'usuario_id': 10},
+  { 'nome': 'Filomena da Luz', 'telefone': '99 7584-7884', 'cpf': '19641782070', 'cargo_id': 5, 'usuario_id': 11}
+]);
+
+/* Atualização de dados de “funcionario” (qualquer campo de sua preferência)
+db.UC04_atividade05.updateOne( {telefone: '99 7898-1234'}, { $set: { telefone: '51 97899-1324' } })
+
+// Busca de funcionário por nome
+db.UC04_atividade05.find({ nome: { $eq: "Amaro Valadão"} })*/
+
+// Busca de funcionário por cargo
+db.UC04_atividade05.find({ cargo_id: { $eq: 3} })
