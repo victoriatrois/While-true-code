@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primeiros passos com DOM</title>
+  <style>
+    body {
+      background-color: rgb(222, 253, 253);
+      color: rgb(75, 18, 75);
+      font: normal 18pt;
+      text-align: justify;
+      margin: 20px;
+    }
+
+    h1{
+      color: rgb(165, 42, 165);
+    }
+
+
+  </style>
+</head>
+<body>
+  <h1>Estudos sobre DOM</h1>
+  <h3>O que é DOM?</h3>
+  <p>DOM significa <em>Document Object Model</em> (modelo de objetos para documentos). Um conjunto de objetos dentro do navegador que dá acesso aos componentes internos de um site.</p>
+  <h3>Árvores DOM</h3>
+  <p>Uma árvore DOM começa da raiz, <em>window</em>, que possui diversos objetos dentro de si. Alguns exemplos são: <em>location</em>, <em>document</em> e <em>history</em>.</p>
+  <p>Dentro de <em>document</em>, um objeto importante é o html, que por sua vez, tem como objetos filhos <em>head</em> e <em>body</em></p>
+  <p>Usando o <strong>DOM</strong> com JavaScript, podemos mostrar diversas informações em sites. Como demonstrado a seguir:</p>
+  <p><strong>URL utilizada</strong></p>
+  <script>
+    window.document.write(window.document.URL);
+  </script>
+  <h3>Navegando dentre os elementos da árvore DOM</h3>
+  <p>Há 5 métodos de seleção desses elementos:</p>
+  <li>por Marca</li>
+  <li>por ID</li>
+  <li>por Nome</li>
+  <li>por Classe</li>
+  <li>por Seletor</li>
+  <h4>Por Marca:</h4>
+  <p>getElementsByTagName();</p>
+  <script>
+    var ex1 = window.document.getElementsByTagName('p')[0];
+    window.document.write('No primeiro parágrafo está escrito: ' + ex1.innerHTML);
+  </script>
+  <p>Nesse exemplo, usamos dois parâmetros. Um vai entre () e o outro entre []. Entre parênteses colocamos o nome da marca que usaremos para buscar os elementos, neste caso p. Já nos colchetes, colocaremos a posição delas no corpo do documento HTML iniciando por zero. Se quizermos acessar a primeira marca de parágrafo usamos dentro dos colchetes 0, se quizermos o segundo, usamos 1 e assim por diante (mesma lógica que se usa para índices na maioria das linguagens de programação).</p>
+  
+  <h4>Por ID:</h4>
+  <p id="byId">getElementById();</p>
+  <p>Para acessar um elemento por sua ID, primeiro precisamos criar uma ID para ele. Dentro dos colchetes angulares, escrevemos "id = " e atribuimos o valor desejado. Como por exemplo quando tornamos o fundo de "getElementById" da cor "aqua":</p>
+  <script>
+    var ex2 = window.document.getElementById('byId');
+    ex2.style.background = 'aqua';
+  </script>
+
+  <h4 = "nome">Por Nome:</h4>
+  <p>getElementsByName()</p>
+  <p>Acessar um documento pelo seu nome é parecido com acessar um documento pela sua ID. No entanto, ao invés de termos dentro ca marca "id=&lt;valorID&gt;", utilizamos apenas "=&lt;nomeMarca&gt;".</p>
+  <p>Já que o comando seletor tem a palavra element<em>S</em> no plural, deveremos informar qual a posição ocupada pelo elemento desejado.</p>
+  <script>
+    var ex3 = window.document.getElementsByName('nome')[0];
+  </script>
+
+  <h4>Por Classe:</h4>
+  <p>getElementsByClassName()</p>
+
+  <h4>Por Seletor:</h4>
+  <p>getElementsByTagName()</p>
+  
+  <div>clique em mim</div>
+  <script>
+    
+  </script>
+</body>
+</html>
