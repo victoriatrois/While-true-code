@@ -7,15 +7,15 @@
   <title>Primeiros passos com DOM</title>
   <style>
     body {
-      background-color: rgb(222, 253, 253);
-      color: rgb(75, 18, 75);
+      background-color: rgb(39, 41, 41);
+      color: rgb(248, 149, 248);
       font: normal 18pt;
       text-align: justify;
       margin: 20px;
     }
 
     h1{
-      color: rgb(165, 42, 165);
+      color: rgb(252, 0, 252);
     }
 
 
@@ -23,18 +23,25 @@
 </head>
 <body>
   <h1>Estudos sobre DOM</h1>
+
   <h3>O que é DOM?</h3>
   <p>DOM significa <em>Document Object Model</em> (modelo de objetos para documentos). Um conjunto de objetos dentro do navegador que dá acesso aos componentes internos de um site.</p>
+
   <h3>Árvores DOM</h3>
   <p>Uma árvore DOM começa da raiz, <em>window</em>, que possui diversos objetos dentro de si. Alguns exemplos são: <em>location</em>, <em>document</em> e <em>history</em>.</p>
-  <p>Dentro de <em>document</em>, um objeto importante é o html, que por sua vez, tem como objetos filhos <em>head</em> e <em>body</em></p>
+  
+  <p>Dentro de <em>document</em>, um objeto importante é o html, que por sua vez, tem como objetos filhos <em>head</em> e <em>body</em>.</p>
+  
   <p>Usando o <strong>DOM</strong> com JavaScript, podemos mostrar diversas informações em sites. Como demonstrado a seguir:</p>
   <p><strong>URL utilizada</strong></p>
+  
   <script>
     window.document.write(window.document.URL);
   </script>
+
   <h3>Navegando dentre os elementos da árvore DOM</h3>
   <p>Há 5 métodos de seleção desses elementos:</p>
+  
   <li>por Marca</li>
   <li>por ID</li>
   <li>por Nome</li>
@@ -46,33 +53,54 @@
     var ex1 = window.document.getElementsByTagName('p')[0];
     window.document.write('No primeiro parágrafo está escrito: ' + ex1.innerHTML);
   </script>
+  
   <p>Nesse exemplo, usamos dois parâmetros. Um vai entre () e o outro entre []. Entre parênteses colocamos o nome da marca que usaremos para buscar os elementos, neste caso p. Já nos colchetes, colocaremos a posição delas no corpo do documento HTML iniciando por zero. Se quizermos acessar a primeira marca de parágrafo usamos dentro dos colchetes 0, se quizermos o segundo, usamos 1 e assim por diante (mesma lógica que se usa para índices na maioria das linguagens de programação).</p>
   
   <h4>Por ID:</h4>
   <p id="byId">getElementById();</p>
+  
   <p>Para acessar um elemento por sua ID, primeiro precisamos criar uma ID para ele. Dentro dos colchetes angulares, escrevemos "id = " e atribuimos o valor desejado. Como por exemplo quando tornamos o fundo de "getElementById" da cor "aqua":</p>
   <script>
     var ex2 = window.document.getElementById('byId');
-    ex2.style.background = 'aqua';
+    ex2.style.background = "teal"; 
   </script>
 
-  <h4 = "nome">Por Nome:</h4>
-  <p>getElementsByName()</p>
-  <p>Acessar um documento pelo seu nome é parecido com acessar um documento pela sua ID. No entanto, ao invés de termos dentro ca marca "id=&lt;valorID&gt;", utilizamos apenas "=&lt;nomeMarca&gt;".</p>
-  <p>Já que o comando seletor tem a palavra element<em>S</em> no plural, deveremos informar qual a posição ocupada pelo elemento desejado.</p>
+  <h4 name="nome">Por Nome:</h4>
+  <p>getElementsByName()[]</p>
+  
+  <p>Acessar um elemento pelo seu nome é parecido com acessar um documento pela sua ID. No entanto, ao invés de termos dentro da marca "id=&lt;valorID&gt;", utilizamos apenas "=&lt;nomeMarca&gt;".</p>
+  
+  <p>Já que o comando seletor tem a palavra element<em><strong>S</strong></em>, no plural, deveremos informar qual a posição ocupada pelo elemento desejado.</p>
   <script>
     var ex3 = window.document.getElementsByName('nome')[0];
+    ex3.style.font = "bold 15px arial,serif";
+    ex3.innerText = 'Por nome (fonte editada via nome do elemento)';
+    
   </script>
 
-  <h4>Por Classe:</h4>
-  <p>getElementsByClassName()</p>
+
+  <h4 class="titulo4">Por Classe:</h4>
+  <p>getElementsByClassName()[]</p>
+  
+  <p>Para acessar um elemento pela sua classe é muito parecido com quando o acessamos pelo seu nome e ID. Para isso, ao invés de introduzirmos na sua marca "id=" ou "name=", basta introduzirmos "class=".</p>
+  <script>
+    var ex4 = window.document.getElementsByClassName('titulo4')[0];
+    ex4.innerText = 'Este elemento h4 foi editado via classe. Seu conteúdo anterior era: "Por Classe"';
+  </script>
 
   <h4>Por Seletor:</h4>
-  <p>getElementsByTagName()</p>
-  
-  <div>clique em mim</div>
+  <p>querySelector()<br>querySelectorAll()</p>
+
+  <div id="divPar1">Selecionar elementos por seletor é uma técnica bastante recomendada pelas documentações existentes. Podemos usar como referência IDs ou classes.</div>
+  <br>
+  <div class="divPar2">Considerando a sintaxe do CSS, IDs são representadas por '#' e classes por '.' .</div>
   <script>
-    
+    var ex5 = window.document.querySelector('div#divPar1');
+    ex5.style.color = 'lightBlue';
+
+    var ex6 = window.document.querySelector('div.divPar2');
+    ex6.style.background = 'lightBlue';
+    ex6.style.color = 'purple';
   </script>
 </body>
 </html>
