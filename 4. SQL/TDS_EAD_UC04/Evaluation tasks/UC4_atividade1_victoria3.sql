@@ -7,7 +7,7 @@ CREATE USER 'dimi.machado'@'localhost';
 
 GRANT 'consulta' TO 'dimi.machado'@'localhost';
 
--- 	• Crie usuário e role para funcionário, o qual pode manipular as tabelas (as tabelas ou os dados?) de venda, cliente e produto, mas não deve ter acesso (nem para consulta) a funcionário e cargo e não deve ser capaz de realizar alterações de estrutura em nenhuma tabela.
+-- 	Crie usuário e role para funcionário, o qual pode manipular as tabelas (as tabelas ou os dados?) de venda, cliente e produto, mas não deve ter acesso (nem para consulta) a funcionário e cargo e não deve ser capaz de realizar alterações de estrutura em nenhuma tabela.
 CREATE ROLE 'funcionario';
 
 GRANT SELECT, INSERT, UPDATE, DELETE ON uc4atividades.venda to funcionario;

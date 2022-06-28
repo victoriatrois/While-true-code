@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos DOM</title>
+  <style>
+    div#area{
+      font: normal 16pt Georgia;
+      background: teal;
+      color: white;
+      width: 200px;
+      height: 200px;
+      vertical-align: middle;
+      line-height: 40px;
+      text-align: center;      
+    }
+  </style>
+</head>
+<body>
+  <h1>Eventos DOM</h1>
+  <p>Eventos são o que tornam possível que usuários interajam com dispositivos. Quando colocamos o mouse sobre uma certa parte da tela e recebemos uma "resposta".</p>
+  <p>Eventos DOM são muito diversos e é bastante difícil saber todos de cor, por issó é importante ter boas referências de pesquisa quando houver necessidade. Duas boas referências são:<br>
+    <a href="https://www.w3schools.com/js/js_htmldom_events.asp">Lista de eventos DOM da W3schools</a> e <br>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/Events">Lista de eventos DOM da Mozilla</a>
+    
+    <h2>Tipos de eventos DOM</h2>
+    <p>Alguns tipos de eventos de JS são "animation", relacionados à API "Web Animation",  "Clipboard", relacionados à API "Clipbpard", entre muitos outros.</p>
+    <p>Um tipo muito importante e o que vamos fazer alguns testes aqui são os eventos do tipo "Mouse".</p>
+
+    <h3>Eventos de mouse</h3>
+    <p>Dentre os eventos de mouse podemos citar "mouseenter", "mousemove", "mousedown", "mouseup", "click" e "mouseout".</p>
+    
+    <h2>Tratando eventos</h2>
+    <p>Para dispararmos eventos, usamos funções. Um conjunto de linhas executadas apenas quando um evento ocorrer. Em JS uma função é declarada com a seguinte sintaxe:</p>
+    <p>function &lt;nomeFuncao&gt;(parâmetro){<br>
+      &ensp;instruções<br>
+    }</p>
+
+    <h1>O Quadrado Narrador</h1>
+    <p>Interaja com o <em><strong><mark style="background-color: rgb(255, 199, 255);">Quadrado Narrador</mark></strong></em> e veja o que acontece!</p>
+  
+    <div id="area">
+      Eu digo o que<br>você faz...
+    </div>
+
+  <script>
+    var area = window.document.getElementById('area');
+    area.addEventListener('click', clica);
+    area.addEventListener('mouseenter', entra);
+    area.addEventListener('mouseout', sai);
+
+    function clica(){
+      area.innerHTML = 'Você clicou';
+      area.style.background = 'pink';
+    }
+
+    function entra(){
+      area.innerHTML = 'Você colocou o mouse sob mim';
+      area.style.background = 'lime';
+    }
+
+    function sai(){
+      area.innerHTML = 'Você tirou o mouse de cima de mim';
+      area.style.background = 'teal';
+    }
+  </script>
+</body>
+</html>

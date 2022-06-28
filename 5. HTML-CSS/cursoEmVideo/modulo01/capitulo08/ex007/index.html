@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formatando textos</title>
+  <style>
+    h2 {
+      color:rgb(18, 155, 155)
+    }
+  </style>
+</head>
+<body>
+  <h1>Principais formatações</h1>
+  
+  <h2>Forma semântica e não-semântica</h2>
+  <p>De um tempo para cá, e com o avanço das CSSs e da preocupação de se desenvolver um código limpo, houve um grande foco na separação entre forma e significado.</p>
+  <p>HTML se detem ao significado e CSS à forma. No entanto, nem sempre foi assim. O HTML já fez uso de marcas que se atinham à forma e não ao conteúdo. Era o caso de &lt;big&gt;, &lt;marquee&gt; e &lt;strong&gt;, mas existem muitas outras.</p>
+  <p>O fato é que essas marcas foram descontinuadas pela 3WC e seu uso é desaconselhado. </p>
+  <p>Algumas marcas têm uma forma semântica e uma forma não semântica. Fique atento e dê preferência sempre para o uso da semântica, já que não há diferênça visível entre elas.</p>
+
+  <h3>Negrito / Destaque</h3>
+  <p>A forma não-semântica para formatarmos um termo em <strong>negrito</strong> é com a marca &lt;b&gt;, já a marca &lt;strong&gt; é sua forma semântica.</p>
+  
+  <h3>Itálico / Ênfase</h3>
+  <p>No caso da forma <em>itálica</em> a marca &lt;i&gt; é a forma não-semântica e a semântica, a marca &lt;em&gt;.</p>
+
+  <h3>Sublinhado / Inserido</h3>
+  <p>E para <ins>sublinhados</ins> a marca &lt;u&gt; é do tipo não-semântico e &lt;ins&gt; do tipo não-semântico.</p>
+  
+  <h2>Texto marcado</h2>
+  <p>A tag &lt;mark&gt; faz com que o fundo de um texto fique <mark style="background-color:aqua;">destacada</mark> como quando usamos uma marca-texto.</p>
+
+  <h2>Seletores de estilo</h2>
+
+  <h3>Dentro da marca que se deseja formatar</h3>
+  <p>Às vezes precisamos formatar uma marca poucas vezes, ou uma única vez. Nesses casos, podemos usar o seletor de estilo dentro da própria marca que desejamos formatar:</p>
+
+  <p>&lt;mark&gt;style="background-color: aqua;"&lt;/mark&gt; , como feito na sessão acima.</p>
+
+  <h3>No início do arquivo, abaixo da marca &lt;title&gt;</h3>
+
+  <p> Porém, há estilos que se repetem demais ao longo de um texto ou página, mas não no projeto todo. Então, criar uma marca &lt;style&gt; no início do documento e dentro dela adicionamos seletores de formatação, como este:</p>
+  <p>h3{<br>
+    &ensp;font-color:"&lt;cor desejada&gt;<br>
+    }</p>
+
+    <h3>Em folhas de estilo</h3>
+    <p>Quando precisamos padronizar algumas formatações o indicado é que se faça uso de uma folha de formatação, recurso que vamos aprender mais adiante.</p>
+
+    <h2>Letras pequenas e texto sobre e superscrito</h2>
+    <p>Textos <sup>superescritos, </sup><small>letras pequenas e</small><sub> textos sobrescritos</sub> podem dar um efeito engraçado além de serem  muito úteis.</p>
+
+    <h2>Texto riscado</h2>
+    <p>Às <del>fe</del>vezes cometemos erros ao escrever e não temos como apagar, ou queremos introduzir algum elemento de humor.</p>
+    <p>Riscar um texto o deixando visível, porém sem muita ênfase ajuda com esse viés.</p>
+
+    <h3>Tabulações</h3>
+    <p>Esse é o espaço &nbsp; de uma tabulação padrão.</p>
+    <p>Esse é o espaço &ensp; de duas tabulações.</p>
+    <p>E esse é o espaço &emsp; de quatro tabulações.</p></p>
+</body>
+</html>

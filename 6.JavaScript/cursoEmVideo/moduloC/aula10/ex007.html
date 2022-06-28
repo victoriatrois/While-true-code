@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Somando números</title>
+  <style>
+    body, input {
+      font: normal 18pt Georgia;
+    }
+
+    input {
+      width: 100px;
+    }
+    div#resultado{
+      margin-top: 5%;
+    }
+
+
+  </style>
+</head>
+<body>
+  <h1>Somando valores</h1>
+  <input type="number" name="campo1" id="campo1"> +
+  <input type="number" name="campo2" id="campo2">
+  <input type="button" value="=" onclick="soma()">
+  <div id="resultado">Resultado</div>
+
+  <script>
+    function soma(){
+      var txtCampo1 = window.document.getElementById('campo1');
+      var txtCampo2 = window.document.querySelector('input#campo2');
+      var resultado = window.document.querySelector('div#resultado');
+      var valor1 = Number(campo1.value);
+      var valor2 = Number(campo2.value);
+      var soma = valor1 + valor2;
+      resultado.innerHTML = `A soma entre <strong>${valor1}</strong> e <strong>${valor2}</strong> é <strong><ins>${soma}</ins></strong>.`;
+    }
+    
+    function entra(){
+      area.innerHTML = 'Você colocou o mouse sob mim';
+      area.style.background = 'lime';
+    }
+  </script>
+</body>
+</html>
