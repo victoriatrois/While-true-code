@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outras formatações</title>
+  <style>
+    blockquote{
+      margin-left: 4cm;
+      line-height: normal;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <h1>Outras formatações</h1>
+  <h2>Códigos-fonte</h2>
+  <p>Quando quisermos escrever códigos em nossas páginas, podemos utilizar a marca <mark>&lt;code&gt;</mark>, pois ela facilita a leitura por deixar a fonte dos nossos textos mono-espaçada: </p>
+  <p><strong>Ex. 1:</strong> <code>document.querySelector();</code></p>
+
+  <h2>Pré formatação</h2>
+  <p>A marca &lt;code&gt;, no entanto, não mantém as indentações. Para isso precisamos da marca <mark>&lt;pre&gt;</mark>. Veja a diferença de um código com e sem a </p>
+  <p><strong>Ex. 2:</strong><br>
+  </p>
+  <p>
+    <strong>código sem a marca &lt;pre&gt;:</strong>
+  </p>
+  <p>
+    <code>
+        var idade = 80;
+        if(idade<16){
+          console.log(`Proibido votar.`);
+        } else if(idade<18 || idade >65){
+            console.log(`Voto opcional.`);
+          } else{
+            console.log(`Voto obrigatório.`);
+          }
+    </code>
+  </p>
+  <p>
+    <strong>código com a marca &lt;pre&gt;:</strong>
+  </p>
+  <p>
+    <code>
+    <pre>
+      var idade = 80;
+      if(idade < 16){
+        console.log(`Proibido votar.`);
+      } else if (idade < 18 || idade > 65){
+          console.log(`Voto opcional.`);
+        } else{
+          console.log(`Voto obrigatório.`);
+        }
+    </pre>
+  </code></p>
+
+  <h2>Citações diretas curtas</h2>
+  <p>Quando falamos ou escrevemos é muito comum que usemos ideias que não são originalmente nossas para fortalecer argumentos, passar confiabilidade, tudo depende do intuito da nossa conversa.</p>
+  <p>Nos sites de nossos clientes é muito provável que tenhamos que referenciar fontes que não são eles, ou nós, próprios que inventamos.</p>
+  <p>Nessas situações usaremos a marca <mark>&lt;q&gt;</mark>. </p>
+
+  <h2>Citações diretas longas</h2>
+  <p>Quando uma citação é maior que três linhas, devemos deixa um recuo, sua fonte deve ser menor (segundo a <abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr>) e o espaçamento é menor que o resto do texto.</p>
+
+  <p>No <abbr title="HyperText Markup Language">HTML</abbr> tempos a marca <mark>&lt;blockquote&gt;</mark> e visualmente ela fica assim:
+    <blockquote cite="https://priceonomics.com/the-history-of-lorem-ipsum/">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </blockquote>
+  </p>
+  <p>Essa marca nos possibilita referenciar a origem do conteúdo citado a partir do parâmetro "cite".</p>
+
+  <h2>Abreviações</h2>
+  <p>Para quem tem familiaridade com conhecimentos técnicos, siglas e abreviações podem não ser grande impecilho para o entendimento, mas para quem está chegando na área as sopas de letrinhas que as acompanham podem ser um grande desafio.</p>
+  <p>Caso haja o interesse de auxiliar os recém chegados em textos introdutórios, podemos fazer uso da marca <mark>&lt;abbr&gt;</mark>. </p>
+
+  <h2><bdo dir="rtl">Texto invertido</bdo></h2>
+  <p>A marca <mark>&lt;bdo&gt;</mark> nos possibilita escolher o sentido do texto dentro dela, como fizemos no título dessa seção.</p>
+
+  <bdo dir="rtl">Socorram-me, subi no ônibus em Marrocos</bdo>
+</body>
+</html>

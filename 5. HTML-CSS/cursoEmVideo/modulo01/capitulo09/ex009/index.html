@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listas</title>
+</head>
+<body>
+  <h1>Trabalhando com Listas</h1>
+  <p>Aaaaah chegou a horaa! Amo listas, partiu ver como elas funcionam em <abbr title="HyperText Markup Language">HTML</abbr>!</p>
+  <p>Para listas ordenadas usamos a marca mark  &lt;li&gt; e para não ordenadas, a marca <mark>&lt;ul&gt;</mark>. </p>
+
+  <h2>Listas Ordenadas</h2>
+  <ol>
+    <li>Item
+    <li>Item
+    <li>Item
+    <li>Item
+  </ol>
+
+  <h2>Listas não-ordenadas</h2>
+  <ul>
+    <li>Item
+    <li>Item
+    <li>Item
+    <li>Item
+  </ul>
+
+  <p>Fechar a marca <mark>&lt;li&gt;</mark> se tornou <em>opcional</em> a partir da quinta versão do HTML.</p>
+
+  <h3>Personalizando listas</h3>
+  <p>Por padrão, listas ordenadas são organizadas por números inteiros e começam em 1.</p>
+  <p>Se precisarmos de ordens diferentes dessa, usamos os parâmetros "type" e "start" para configurá-las.</p>
+
+  <h4>O parâmetro type</h4>
+  <p>Nas listas ordenadas, temos como opções de tipos de ordenação os tipos: <strong>1</strong>, <strong>A</strong>, <strong>a</strong>, <strong>I</strong> e <strong>i</strong>.</p>
+  <p>Já os marcadores possíveis para as listas não-ordenadas são <strong>disc</strong>, <strong>circle</strong> e <strong>square</strong>.</p>
+
+  <h4>O parâmetro start</h4>
+  <p>Quando precisarmos mudar o valor inicial de uma lista ordenada, digitamos:
+    <code>
+      <pre>
+      &lt;ol&gt; start="<strong>&lt;valor inicial desejado&gt;</strong>"&gt;
+        &lt;li&gt;Item
+        &lt;li&gt;Item
+        &lt;li&gt;Item
+        &lt;li&gt;Item
+      &lt;/ol&gt;
+      </pre>
+    </code>
+  </p>
+
+  <h2>Junção entre listas</h2>
+  <p>Da mesma maneira que podemos aninhar condições, podemos aninhar listas:
+  <code>
+    <pre>
+      &lt;ol&gt;
+        &lt;li&gt;Lista1
+          &lt;ol&gt;
+            &lt;li&gt;item1Lista1
+            &lt;li&gt;item2Lista1
+            &lt;li&gt;item3Lista1
+          &lt;/ol&gt;
+
+        &lt;li&gt;Lista2
+        &lt;ol&gt;
+          &lt;li&gt;item1Lista2
+          &lt;li&gt;item2Lista2
+          &lt;li&gt;item3Lista2
+        &lt;/ol&gt;
+      &lt;ol&gt;
+    </pre>
+  </code>
+</p>
+
+<h2>Listas de definições</h2>
+<p>Uma ferramenta bastante útil para criação de wiki (opinião pessoal). Usamos a marca <mark>&lt;dl&gt;</mark> para a estrutura da lista e as marcas <mark>&lt;dt&gt;</mark> e <mark>&lt;dd&gt;</mark> para os termos e as definições, respectivamente.</p>
+<p><strong>Ex.:</strong>
+  <dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação com foco no conteúdo de sites. Abreviação de <em>HyperText Markup Language.</em></dd>
+
+    <dt>CSS</dt>
+    <dd>Linguagem de folha de estilo com foco no design de um site. Abreviação de <em>Cascading Style Sheet</em>.</dd>
+
+    <dt>JS</dt>
+    <dd>Linguagem de programação que foca na interação entre site e usuário. Abreviação de <em>JavaScript</em>.</dd>
+  </dl>
+</p>
+</body>
+</html>
