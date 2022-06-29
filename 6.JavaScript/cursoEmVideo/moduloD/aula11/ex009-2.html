@@ -15,11 +15,12 @@
 
   <script>
     function ehBrasileire(){
-      var pais = window.document.querySelector('input#txtPais');
+      var pais = window.document.querySelector('input#txtPais').value.toLowerCase();
+      var Pais = pais[0].toUpperCase() + pais.substr(1);
       var dados = window.document.querySelector('div#dados');
-      dados.innerHTML = `<p>Seu país é ${pais}.</p>`;
+      dados.innerHTML = `<p>Seu país é ${Pais}.</p>`;
       
-      if(pais = 'Brasil'){
+      if(pais == 'brasil'){
         dados.innerHTML += `<p>Você é <strong>brasileire</strong>.</p>`;
       } else {
         dados.innerHTML += `<p>Você é estrangeire.</p>`;
