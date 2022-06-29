@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>País de origem</title>
+</head>
+<body>
+  <h1>Sistema Nacional de Cadastro Civil</h1>
+  País de origem: <input type="text" id="txtPais">
+  <input type="button" value="verificar" onclick="ehBrasileire()">
+
+  <div id="dados"></div>
+
+  <script>
+    function ehBrasileire(){
+      var pais = window.document.querySelector('input#txtPais');
+      var dados = window.document.querySelector('div#dados');
+      dados.innerHTML = `<p>Seu país é ${pais}.</p>`;
+      
+      if(pais = 'Brasil'){
+        dados.innerHTML += `<p>Você é <strong>brasileire</strong>.</p>`;
+      } else {
+        dados.innerHTML += `<p>Você é estrangeire.</p>`;
+      }
+    }
+  </script>
+
+</body>
+</html>
