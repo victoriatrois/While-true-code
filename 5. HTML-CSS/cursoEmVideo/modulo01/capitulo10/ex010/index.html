@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhando com links</title>
+</head>
+<body>
+  <h1>Trabalhando com links</h1>
+  <h2>Links externos</h2>
+  <p>Um link externo aponta para um outro site. Como esse que leva para a <a href="https://github.com/vickytrois" target="_blank" rel="noopener noreferrer">meu perfil no GitHub</a>.</p>
+  <p>Quando desenvolvemos um site, precisamos pensar como que a experiência de navegação vai contribuir para o comportamento dos usuários.</p>
+  <p>Por padrão, quando criamos um <em>hyperlink</em>, esse caminho é aberto na mesma janela que estava sendo navegada. Esse é um comportamento interessante para links internos, mas para links externos, pode gerar um resultado oposto ao que queremos (que os usuários permaneçam navegando no nosso site).</p>
+
+  <h3>O atributo target</h3>
+  <p>O atributo <code>target</code> nos ajuda a controlar como esses caminhos serão abertos e ele suporta os seguintes valores:</p>
+  <ul type="circle">
+    <li> <code>_self</code> (abre o link na mesma janela ou frame e <strong>é a configuração padrão</strong>);
+    <li> <code>_blank</code> (abre links em uma nova janela);
+  </ul>
+  <p>Existem os valores <code>_top</code>, <code>_parent</code> e o uso do <code>&lt;nome-do-frame&gt;</code>, mas são todos relacionados ao uso de frames e essa é uma técnica já à beira do desuso.</p>
+
+  <h2>Links internos</h2>
+  <p>Podemos usar links internos para ir de uma página para a outra em nossos sites. Como nesse exemplo que o link <a href="pag002.html" rel="next">ir para página 02</a> nos manda para a página 02.</p>
+
+  <h3>O atributo rel</h3>
+  <p>Esse atributo nos ajuda a informar mecanismos de busca como a navegação no nosso site funciona.</p>
+  <p>Alguns valores aceitos pelo atributo <code>rel</code> são:</p>
+  <ul type="circle">
+    <li><code>next</code> (indica que a página referenciada é está à frente na ordem de navegação)
+    <li><code>prev</code> (indica que a página referenciada é antecessora na ordem de navegação)
+    <li><code>author</code> (indica que a página referenciada leva para o site do autor da página atual)
+    <li><code>external</code> (indica que o link referenciado não faz parte do seu site)
+    <li><code>nofollow</code> (indica que uma página não tem o seu aval para ser encontrada em mecanismos de busca, ou que ela está ali porque pagou para isso)
+    <li><code>noopener</code> e <code>noreferrer</code> (impedem que páginas mal intencionadas possam usar a página do nosso site como meio para <em>phishing</em> ou que a conexão com o servidor se torne muito pobre)
+  </ul>
+
+  <h2>Links para páginas em subpastas de um projeto</h2>
+  <p>Quando trabalhamos em projetos, é ideal que organizemos nossos arquivos em pastas, subpastas, seguindo uma lógica de organização que facilite a busca por recursos.</p>
+  <p>Para relacionar esses arquivos em páginas diferentes, precisamos digitar o caminho que deve ser percorrido até esses arquivos:</p>
+  <p><code>&lt;a href="&lt;nome da pasta&gt;/&lt;nome do arquivo&gt;"&gt;texto visível na página&lt;/a&gt;</code></p>
+  <p>Como aqui na <a href="/cursoEmVideo/modulo01/capitulo10/ex010/noticias/pag003.html" rel="next">nossa página de notícias</a>.</p>
+
+  <h2>Disponibilizando downloads</h2>
+  <p>Para disponibilizar um arquivo para download, precisamos indicar o caminho para ele.</p>
+  <p>Crie uma pasta para o arquivo que você deseja disponibilizar, coloque seu arquivo dentro dela, se você desejar, você pode disponibilizar vários formatos, como um arquivo em extensão .pdf e outro em extensão .zip.</p>
+  <p>A marca <code>&lt;a&gt;</code> deve serguir esse modelo:</p>
+  <p><code>&lt;a href="&lt;nome da pasta&gt;/&lt;nome do arquivo&gt;" download="&lt;nome do arquivo&gt;" type="&lt;código do tipo do arquivo&gt;"&gt;texto visível no site&lt;/a&gt;</code></p>
+  <p>Para saber os códigos para cada tipo de arquivo acesse <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="noopener noreferrer">iana.org</a>.</p>
+  <p>Como exemplo vou disponibilizar meu currículo feito com LaTeX nos dois formatos mencionados anteriormente:</p>
+  <ul>
+    <li><a href="/cursoEmVideo/modulo01/capitulo10/ex010/downloads/victoria3_cv_modoEscuro.pdf" download="victoria3_cv_modoEscuro.pdf" type="application/pdf">Meu CV em PDF</a>;
+    <li><a href="/cursoEmVideo/modulo01/capitulo10/ex010/downloads/victoria3_cv_modoEscuro.zip" download="victoria3_cv_modoEscuro.zip" type="application/zip">Meu CV zippado</a>;
+  </ul>
+
+</body>
+</html>
