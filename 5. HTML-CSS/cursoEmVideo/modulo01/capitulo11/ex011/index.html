@@ -11,10 +11,19 @@
   <p>Aumente e diminua o tamanho da janela do seu navegador. O que acontece?</p>
 
   <picture>
-        <source media="(min-width: 1050px)" srcset="/cursoEmVideo/modulo01/capitulo11/ex011/imagens/foto-g.png" type="image/png">
-        <source media="(min-width: 750px)" srcset="/cursoEmVideo/modulo01/capitulo11/ex011/imagens/foto-m.png" type="image/png">
+        <source media="(min-width: 1050px)" srcset="/cursoEmVideo/modulo01/capitulo11/ex011/imagens/foto-g.png.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="/cursoEmVideo/modulo01/capitulo11/ex011/imagens/foto-m.pngg" type="image/png">
     <img src="/cursoEmVideo/modulo01/capitulo11/ex011/imagens/foto-p.png" alt="imagem ">
   </picture>
-
+<h1>Reproduzindo áudios</h1>
+<p>Para reproduzir áudios num site, usamos a marca <code>&lt;audio&gt;</code>.</p>
+<audio src="/cursoEmVideo/modulo01/capitulo11/ex011/midia/pen-clicking.mp3" controls autoplay></audio>
+<p>Caso o atributo autoplay não funcione, nós podemos utilizar a marca <code>&lt;audio&gt;</code> de uma forma um pouco diferente:</p>
+<audio preload="metadata" autoplay controls>
+  <source src="/cursoEmVideo/modulo01/capitulo11/ex011/midia/pen-clicking.mp3"> <!-- Dessa forma funcionou-->
+</audio>
+<p>Alguns navegadores não tem compatibilidade com arquivos mp3, por exemplo. Uma alternativa são os formatos ogg e wav.</p>
+<p>Os códigos de mídia para esses formatos são <code>audio/ogg</code> e <code>audio/wav</code> (não é aconselhado o uso de arquivos .wav, pois eles são muito pesados).</p>
+<p>Para mp3 usamos <code>audio/mpeg</code>.</p>
 </body>
 </html>
