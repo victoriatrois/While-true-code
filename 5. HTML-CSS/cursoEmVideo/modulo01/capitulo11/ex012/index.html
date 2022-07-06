@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videos com HTML5</title>
+</head>
+<body>
+  <h1>Vídeos inseridos localmente</h1>
+  <p>Vídeos podem ser hospedados localmente com o uso da marca <code>&lt;video&gt;</code>:</p>
+  <video width="60%" poster='/5. HTML-CSS/cursoEmVideo/modulo01/capitulo11/ex012/imagens/tumb.jpg' controls>
+    <source src="/5. HTML-CSS/cursoEmVideo/modulo01/capitulo11/ex012/midias/meu-video.mp4" type="video/mp4">
+    <!--O ideal é ter mais de um formato de vídeo para colocar depois de mp4. Assim, se o navegador não for compatível com o primeiro formato disposto, os seguintes serão carregados é bacana também deixar por último um aviso de problema de compatibilidade (caso nenhum dos formatos sejam compatíveis com o navegador do cliente).-->
+    <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+  </video>
+  <p>Alguns atributos que podemos usar na marca <code>&lt;video&gt;</code> são: <code>loop</code>, <code>autoplay</code>, e <code>controls</code>, assim como na marca <code>audio</code>.</p>
+</body>
+</html>
