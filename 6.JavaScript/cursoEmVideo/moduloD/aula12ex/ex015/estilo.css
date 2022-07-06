@@ -1,6 +1,6 @@
 body{
   background: rgb(105, 179, 249);
-  font: normal 15pt Georgia;
+  font: normal 13pt Georgia;
 }
 
 header{
@@ -10,8 +10,7 @@ header{
 
 section{
   background: white;
-  text-align: center;
-  border-radius: 10px 20px;
+  border-radius: 10px;
   padding: 15px;
   width: 70%;
   margin: auto;
