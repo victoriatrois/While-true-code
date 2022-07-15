@@ -70,8 +70,7 @@ public class CalcDiarias04 {
                   maisDiasOcupado = diasOcupado;
 
                 }
-                }
-                
+              } 
             }
           }
         }
@@ -81,6 +80,7 @@ public class CalcDiarias04 {
     if (numQuarto == -1) {
         System.out.println(precisaDeLimpeza + " quarto(s) precisa(m) de limpeza;");
         System.out.println("O quarto " + quartoMaisOcupado + " ficará mais dias ocupado: " + maisDiasOcupado + ".");
-      }
+
+    }
   }
 }
