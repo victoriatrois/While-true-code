@@ -31,7 +31,7 @@ public class CalcGarcons03 {
         
         
         if (numConvidados < 1) {
-            System.out.println("Valor inválido. Você precisa teer ao menos 01 convidado.");
+            System.out.println("Valor inválido. Você precisa ter ao menos 01 convidado.");
             
         } else if (numConvidados > 350){
             System.out.println("Número máximo de convidados excedido");
