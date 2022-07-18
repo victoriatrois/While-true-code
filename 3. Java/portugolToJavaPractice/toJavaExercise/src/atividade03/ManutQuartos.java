@@ -33,76 +33,43 @@ import java.util.Scanner;
  */
 
 public class ManutQuartos {
-  Scanner in = new Scanner(System.in);
-  
-  String quarto[] = new String[20];
-  int numQuarto;
+  public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
     
-  public void inserirLivreQuartos(){
-    for (int i = 0; i < 20; i++) {
-      quarto[i] = "livre";
-    }
-   }
+    char continuar = ' ';
+    String quarto[] = {"livre", "livre", "livre", "livre", "livre", "livre", "livre", "livre", "livre", "livre", "livre", "livre", "livre", "livre", "livre", "livre", "livre", "livre", "livre", "livre"};
     
-    public void menu(){ //estático não precisa estanciar
-        System.out.println("Bem vindo ao seu sistema de manutenção de ocupação de quartos.");
-        System.out.println("Vamos começar?");
-        System.out.println("Gestão dos quartos");
-        System.out.println("1 - listar todos os quartos;");
-        System.out.println("2 - marcar os quartos;");
-        System.out.print("Digite aqui: ");
-        
-    }
+    do {
+      System.out.println("Qual o numero do quarto?");
+      int posicao = in.nextInt();
 
-    public void listaQuartos() {
-      for (int i = 0; i < 20; i++) {
-        System.out.println("Quarto número: " + i + ": " + quarto[i]);
-      }
-    }
+      if (posicao < 1 || posicao > 20) {
+        System.out.println("Entrada inválida. Os quartos são numerados de 1 a 20.");
 
-    public void atualizaStatus(){
-      System.out.println("Qual quarto você deseja ocupar?");
-      numQuarto = in.nextInt();
-      
-      quarto[numQuarto] = "ocupado";
-    }
-    
-    
-    public static void main(String[] args) {
-      Scanner in = new Scanner(System.in);
-     ManutQuartos quarto = new ManutQuartos();
-      int opcao;    
-      char volta;
-      quarto.inserirLivreQuartos();
+      } else {
+        if (! quarto[posicao - 1].equals("livre")) {
+          System.out.println("Este quarto está ocupado.");
 
-    do{
-      
-        quarto.menu();
-      opcao = in.nextInt();
-        
-        switch (opcao) {
-        case 1:
-          quarto.listaQuartos();
+        } else {
+          System.out.println("Este quarto está ocupado ou livre?");
+          quarto[posicao - 1] = in.next();
+          quarto[posicao - 1] = quarto[posicao - 1].toLowerCase();
           
-          break;
-        
-        case 2:
-          quarto.atualizaStatus();
-          
-          break;
-      
-        default:
-          break;
+          System.out.println("Deseja continuar? Digite 'S' para sim e 'N' para não.");
+          continuar = in.next().charAt(0);
+
+        }
       }
+      
+    } while (continuar == 'S');
 
-   System.out.println("Você deseja continuar? \n's' para sim \n'n' para não");
-   volta = in.next().charAt(0); //método para entrar CHAR
+    System.out.println("Situação atual:");
 
-    } while (volta == 's') ;
+    for (int i = 0; i < 19; i++) {
+      System.out.print("Quarto " + (i + 1) + "- " + quarto[i] + "; ");
+      
+    }
     
-    System.out.println("Obrigada por utilizar nosso gerenciador de hoteis");
-
-    
-    
+    System.out.println("Quarto 20 - " + quarto[19] + "; ");
   }
 }
