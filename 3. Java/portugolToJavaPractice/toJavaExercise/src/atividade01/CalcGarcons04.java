@@ -40,7 +40,7 @@ public class CalcGarcons04 {
 			System.out.println("Restaurante indisponível.");
 			System.out.println("Reservas disponíveis de segunda a sexta das 7h às 23h e sábados e domingos das 7h às 15h");
 
-		} else if ((dia == "sabado" || dia == "sab" || dia == "domingo" || dia == "dom") && (hora <7 || hora > 15)) {
+		} else if ((dia.equals("sabado")) || (dia.equals("sab")) || (dia.equals("domingo")) || (dia.equals("dom")) && (hora <7 || hora > 15)) {
 			System.out.println("Restaurante indisponível.");
 			System.out.println("Aos sábados e domingos, reservas disponíveis das 7h às 15h");
 
