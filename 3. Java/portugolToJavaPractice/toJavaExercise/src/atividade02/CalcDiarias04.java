@@ -33,7 +33,7 @@ public class CalcDiarias04 {
       String ocupado = "";
       String limpo = "";
 
-      if ((numQuarto < -1 || (numQuarto == 0))){
+      if (((numQuarto < -1) || (numQuarto == 0))){
         System.out.println("Número inválido. Digite um número maior que zero, para interomper a inserção digite '-1'.");
       } else {
         if (numQuarto > 0) {

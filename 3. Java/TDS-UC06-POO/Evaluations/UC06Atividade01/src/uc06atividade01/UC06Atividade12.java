@@ -8,7 +8,7 @@ package uc06atividade01;
  *
  * @author v3gc
  */
-public class UC06Atividade01 {
+public class UC06Atividade12 {
 
     /**
      * @param args the command line arguments

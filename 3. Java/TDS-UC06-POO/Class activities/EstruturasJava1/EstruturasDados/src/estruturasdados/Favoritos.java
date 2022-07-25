@@ -12,7 +12,7 @@ import java.util.List;
  * @author v3gc
  */
 public class Favoritos {
-    //lista genérica
+    //lista genérica (menos limitada que um vetor)
     List<Site> sites;
     
     public Favoritos(){
@@ -34,5 +34,6 @@ public class Favoritos {
         sites.add(new Site("Site 3", "https://sig.ifrs.edu.br/sigaa/verTelaLogin.do"));
         
         mostraFavoritos();
+        //para remover um dos sites da lista usamoso método .remove(): sites.remove(1) remove o segundo item da lista.
     }
 }

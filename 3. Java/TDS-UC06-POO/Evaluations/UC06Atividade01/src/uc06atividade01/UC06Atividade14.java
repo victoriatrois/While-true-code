@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package atividade03;
+package uc06atividade01;
 
 import java.util.Scanner;
 
@@ -29,7 +29,7 @@ import java.util.Scanner;
  * @author v3gc
  */
 
-public class ManutQuartos03 {
+public class UC06Atividade14 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         

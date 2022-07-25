@@ -26,65 +26,67 @@ public class ManutQuartos02 {
   String[] sexo = new String[10];
   int contMasc = 0;
   int contFem = 0;
-  int contaNaoBin = 0;
+  int contNaoBin = 0;
 
     for (int i = 0; i < 10; i++) {
-      System.out.println("Digite o nome do hóspede: " + (i + 1));
-      hospede[i] = in.next();
+      System.out.println("Digite o nome do hóspede " + (i + 1) + ":");
+      hospede[i] = in.nextLine();
 
-      System.out.println("Qual o sexo de " + hospede[i] + "? Use M para masculino, F para feminimo e NB para não-ninário");
-      sexo[i] = in.next().toLowerCase();
+      System.out.println("Qual o sexo de " + hospede[i] + "?");
+      System.out.println("Use M para masculino, F para feminimo e NB para não-ninário");
+      sexo[i] = in.nextLine();
+      sexo[i] = sexo[i].toLowerCase();
 
-      if ((! sexo[i].equals("m")) && (sexo[i].equals("f")) && (sexo[i].equals("nb"))) {
+      if (! sexo[i].equals("m") && ! sexo[i].equals("f") && ! sexo[i].equals("nb")) {
         System.out.println("Entrada inválida. Use 'M' para masculino, 'F' para feminimo e 'NB' para não-ninário");
-        sexo[i] = in.next().toLowerCase();
+        sexo[i] = in.nextLine();
+        sexo[i] = sexo[i].toLowerCase();
+      }
+    }
+      
+    for (int i = 0; i < 10; i++) {
+      if (sexo[i].equals("m")) {
+        contMasc++;
 
-      } else {
-        for (int j = 0; j < 10; j++) {
-          if (sexo[i].equals("m")) {
-            contMasc++;
-
-            if (contMasc > 1) {
-              System.out.println("; " + hospede[i]);
-              
-            } else {
-              System.out.println(hospede[i]);
-              
-            }
-          }
+        if (contMasc > 1) {
+          System.out.print("; " + hospede[i]);
+          
+        } else {
+          System.out.print(hospede[i]);
+          
         }
+      }
+    }
+        
+    System.out.println(" ");
+    
+    for (int i = 0; i < 10; i++) {
+      if (sexo[i].equals("f")) {
+        contFem++;
 
+        if (contFem > 1) {
+          System.out.print("; " + hospede[i]);
+          
+        } else {
+          System.out.print(hospede[i]);
+          
+        }
+      }
+    }
+    
         System.out.println(" ");
-        for (int j = 0; j < sexo.length; j++) {
-          if (sexo[i].equals("f")) {
-            contFem++;
 
-            if (contFem > 1) {
-              System.out.println("; " + hospede[i]);
-              
-            } else {
-              System.out.println(hospede[i]);
-              
-            }
-          }
+    for (int i = 0; i < 10; i++) {
+      if (sexo[i].equals("nb")) {
+        contNaoBin++;
+
+        if (contNaoBin > 1) {
+          System.out.print("; " + hospede[i]);
+          
+        } else {
+          System.out.print(hospede[i]);
+          
         }
-
-        System.out.println(" ");
-        for (int j = 0; j < sexo.length; j++) {
-          if (sexo[i].equals("nb")) {
-            contaNaoBin++;
-
-            if (contaNaoBin > 1) {
-              System.out.println("; " + hospede[i]);
-              
-            } else {
-              System.out.println(hospede[i]);
-              
-            }
-          }
-        }
-
-
       }
     }
 

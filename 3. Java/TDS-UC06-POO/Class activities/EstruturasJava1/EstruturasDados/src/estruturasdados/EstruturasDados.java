@@ -15,7 +15,7 @@ public class EstruturasDados {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        FavoritosDoGAS favoritos = new FavoritosDoGAS();
+        Favoritos favoritos = new Favoritos();
         
         favoritos.executa();
     }

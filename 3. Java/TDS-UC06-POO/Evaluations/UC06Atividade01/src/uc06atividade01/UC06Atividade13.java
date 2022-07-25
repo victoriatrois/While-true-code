@@ -20,7 +20,7 @@ import java.util.Scanner;
  *              Saída: Total de hospedagens: R$ 150; 1 gratuidade(s); 1 meia(s)
  */
 
-public class UC6Atividade11 {
+public class UC06Atividade13 {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
 

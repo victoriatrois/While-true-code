@@ -16,8 +16,8 @@ public class Site {
         
     }
     
-    public Site(String nome, String url){
-        nome = this.nome;
-        url = this.url;
+    public Site(String nomeFavorito, String enderecoUrl){
+        nome = nomeFavorito;
+        url = enderecoUrl;
     }
 }
