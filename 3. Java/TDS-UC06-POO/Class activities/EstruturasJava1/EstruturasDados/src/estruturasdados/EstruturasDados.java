@@ -16,8 +16,15 @@ public class EstruturasDados {
     public static void main(String[] args) {
         // TODO code application logic here
         Favoritos favoritos = new Favoritos();
+        Navegacao navegacao = new Navegacao();
+        Historico historico = new Historico();
         
         favoritos.executa();
+               
+        navegacao.executa();
+        
+        historico.executa();
+     
     }
     
 }
