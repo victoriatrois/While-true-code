@@ -120,16 +120,18 @@ public class ManutAC01 {
     }
     
     public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        
         final int maxEmpresas = 10;
         final int maxColunas = 4;
         
         String[] empresa = new String[maxEmpresas];
         float[][] dados = new float[maxEmpresas][maxColunas];
         int indice = 0;
-        char opcao = 'S';
+        String opcao = "S";
         float[] orcamento = new float[maxEmpresas];
         
-        while (opcao == 'S') {
+        while (opcao.equals("S")) {
             cadastraEmpresa(empresa, dados, indice);
             orcamento[indice] = calculaOrcamento(dados,indice);
             
@@ -137,10 +139,10 @@ public class ManutAC01 {
             indice++;
             
             System.out.println("Deseja informar mais dados? ");
-            opcao = in.nextInt();
+            opcao = entrada.nextLine();
             
-            while (opcao == 'S' && opcao != 'N') {
-                if (opcao != 'S') {
+            while (opcao.equals("S") && opcao.equals("N")) {
+                if (! opcao.equals("S")) {
                     System.out.println("Entrada inválida. Digite \"S\" ou \"N\".");
                     
                 } else {
