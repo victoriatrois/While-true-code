@@ -11,7 +11,7 @@ package estruturasdados;
 public class Site {
     public String nome;
     public String url;
-    
+    Scanner entrada = new Scanner(System.in);
     public Site(){
         
     }

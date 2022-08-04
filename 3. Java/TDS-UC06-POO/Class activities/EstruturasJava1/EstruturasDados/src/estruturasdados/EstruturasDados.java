@@ -18,7 +18,7 @@ public class EstruturasDados {
         Favoritos favoritos = new Favoritos();
         Navegacao navegacao = new Navegacao();
         Historico historico = new Historico();
-        
+
         favoritos.executa();
                
         navegacao.executa();
