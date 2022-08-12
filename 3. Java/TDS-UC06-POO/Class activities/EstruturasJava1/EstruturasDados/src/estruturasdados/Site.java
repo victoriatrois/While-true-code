@@ -4,6 +4,8 @@
  */
 package estruturasdados;
 
+import java.util.Scanner;
+
 /**
  *
  * @author v3gc
