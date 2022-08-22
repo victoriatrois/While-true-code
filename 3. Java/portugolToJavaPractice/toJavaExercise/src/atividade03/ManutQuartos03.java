@@ -38,11 +38,13 @@ public class ManutQuartos03 {
         for (int i = 0; i < 15; i++) {
             System.out.println("Digite 1 para cadastrar, 2 para pesquisar e 3 para sair.");
             int opcao = in.nextInt();
+            in.nextLine();
             
             while (opcao < 1 || opcao > 3) {
                 System.out.println("Entrada inválida");
                 System.out.println("Digite 1 para cadastrar, 2 para pesquisar e 3 para sair.");
                 opcao = in.nextInt();
+                in.nextLine();
             }
             
             switch (opcao) {

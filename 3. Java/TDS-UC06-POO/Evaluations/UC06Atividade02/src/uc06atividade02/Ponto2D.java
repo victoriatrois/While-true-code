@@ -13,66 +13,59 @@ import java.util.Scanner;
  * @author v3gc
  */
 public class Ponto2D {
-    private float[] eixosXY;
-    private float eixoX;
-    private float eixoY;
+    // 1.e. manter privadas suas informações
+    private double eixoX;
+    private double eixoY;
     
-
-    public Ponto2D() {
-        eixosXY = new float[2];
-    }
-    
-    public Ponto2D(float eixoX, float eixoY) {
-        eixosXY = new float[2];
-        eixosXY[0] = this.eixoX;
-        eixosXY[1] = this.eixoY;
-        
-    }
-
-    public float[] getEixosXY() {
-        return eixosXY;
-        
-    }
-
-    public void setEixosXY(float[] eixoX) {
-        this.eixosXY = eixoX;
-    }
-
-    public float getEixoX() {
-        return eixoX;
-    }
-
-    public void setEixoX(float eixoX) {
+    // 1.e. públicas suas operações
+    // 1.d. conter um construtor que receba as duas coordenadas
+    public Ponto2D(double eixoX, double eixoY) {
         this.eixoX = eixoX;
-    }
-
-    public float getEixoY() {
-        return eixoY;
-    }
-
-    public void setEixoY(float eixoY) {
         this.eixoY = eixoY;
     }
     
-    public float calculaDistancia(Ponto2D coordenadaA, Ponto2D coordenadaB) {
-        coordenadaA = new Ponto2D();
-        coordenadaB = new Ponto2D();
+    public Ponto2D() {
         
+    }
+
+    public double getEixoX() {
+        return eixoX;
+    }
+
+    public void setEixoX(double eixoX) {
+        this.eixoX = eixoX;
+    }
+
+    public double getEixoY() {
+        return eixoY;
+    }
+
+    public void setEixoY(double eixoY) {
+        this.eixoY = eixoY;
+    }
+    
+    // 1.a. ser capaz de calcular e retornar a distância do objeto (A) até outro ponto informado (B).
+    public Double calculaDistancia(Ponto2D pontoA, Ponto2D pontoB) {
+        double distanciaEntreEixosX = pontoB.getEixoX() - pontoA.getEixoX();
+        double distanciaEntreEixosY = pontoB.getEixoY() - pontoA.getEixoY();
         
-        float distanciaEntreAB = Math.sqrt(Math.pow((coordenadaB[0] - coordenadaA[0]), 2)) + (Math.pow((coordenadaB[1] - coordenadaA[1]), 2));
-        
-        System.out.println("A distância entre os pontos A e B é de ");
-        
+        double distanciaEntreAB = Math.sqrt((Math.pow(distanciaEntreEixosX, 2)) + (Math.pow(distanciaEntreEixosY, 2)));
         
         return distanciaEntreAB;
     }
     
-    public void multiplicaCoordenadaA (double multiplicador) {
-        
+    // 1.b. ser capaz de calcular a multiplicação do ponto do objeto (A) por um valor double (k) informado.
+    public void multiplicaCoordenada (double multiplicador) {
+        double eixoXMultiplicado = multiplicador * this.eixoX;
+        double eixoYMultiplicado = multiplicador * this.eixoY;
+
+        System.out.println("X: " + eixoXMultiplicado + ", Y: " + eixoYMultiplicado + ".");
+
     }
     
+    // 1.c. ser capaz de mostrar na tela as coordenadas do ponto no formato “(x, y)”.
     public void mostraCoordenadas() {
-        Map<String, Ponto2D> levantamentoDeCoordenadas = new HashMap <>();
+        System.out.println("(X:" + this.eixoX + " , Y:" + this.eixoY + ").");
         
     }
 }
