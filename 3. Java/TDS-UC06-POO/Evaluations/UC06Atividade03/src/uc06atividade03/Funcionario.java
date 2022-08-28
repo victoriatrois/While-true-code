@@ -29,6 +29,16 @@ public abstract class Funcionario {
         this.modalidadeDeContratacao = modalidadeDeContratacao;
         
     }
+    
+    public Funcionario(String nome, String cpf, String endereco, String telefone, String setor, float salario, String modalidadeDeContratacao) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.endereco = endereco;
+        this.telefone = telefone;
+        this.setor = setor;
+        this.salario = salario;//coloco o salário aqui e sobreescrevo ele nas subclasses OU crio ele direto nelas?
+        this.modalidadeDeContratacao = modalidadeDeContratacao;
+    }
 
     public String getNome() {
         return nome;
@@ -85,16 +95,12 @@ public abstract class Funcionario {
     public void setModalidadeDeContratacao(String modalidadeDeContratacao) {
         this.modalidadeDeContratacao = modalidadeDeContratacao;
     }
-    
-    public void mostraDados() {
-        System.out.println("***** Ficha de " + this.getNome() + ": *****");
-        System.out.println("Nome: " + this.getNome());
-        System.out.println("CPF: " + this.getCpf());
-        System.out.println("Endereço: " + this.getEndereco());
-        System.out.println("Telefone: " + this.getTelefone());
-        System.out.println("Setor: " + this.getSetor());
-        System.out.println("Modalidade de contratação: " + this.getModalidadeDeContratacao());
+
+    @Override
+    public String toString() {
+        return "***** Ficha de " + this.getNome() + ": *****\n" + "Nome: " + this.getNome() + "\nCPF: " + this.getCpf() + "\nEndereco:" + this.getEndereco() + "\nTelefone:" + this.getTelefone() + "\nSetor: " + this.getSetor() + "\nSalario:" + String.format("%.2f", this.getSalario()) + "\nModalidade de contratação: " + this.getModalidadeDeContratacao();
     }
+    
     
     public void calculaSalario() {
         this.salario = this.getSalario();
@@ -105,8 +111,10 @@ public abstract class Funcionario {
         
         System.out.println("Digite a porcentagem de aumento recebido: ");
         float porcentagemDeAumento = entrada.nextFloat();
-        float aumento = (porcentagemDeAumento/100) * this.getSalario();
         entrada.nextLine();
+        
+        float aumento = (porcentagemDeAumento/100) * this.getSalario();
+        
         
         this.setSalario(this.getSalario() + aumento);
         
@@ -115,4 +123,6 @@ public abstract class Funcionario {
     public boolean ehCeletista() {
         return setor.equals("celetista");
     }
+    
+    
 }

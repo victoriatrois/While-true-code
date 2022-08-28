@@ -15,7 +15,7 @@ public class Horista extends Funcionario {
     
     @Override
     public void calculaSalario() {
-        salario = this.getValorHora() * this.getHorasTrabalhadas();
+        this.setSalario(this.getValorHora() * this.getHorasTrabalhadas());
     }
 
     public float getValorHora() {

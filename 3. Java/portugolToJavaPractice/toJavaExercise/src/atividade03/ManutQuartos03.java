@@ -48,13 +48,12 @@ public class ManutQuartos03 {
             }
             
             switch (opcao) {
-                case 1:
+                case 1 -> {
                     System.out.println("Digite o nome do(a) hóspede:");
                     hospede[i] = in.next();
-                    
-                    break;
+                }
                 
-                case 2:
+                case 2 -> {
                     System.out.println("Digite o nome do(a) hóspede que você deseja pesquisar:");
                     String consulta = in.next();
                     
@@ -67,13 +66,12 @@ public class ManutQuartos03 {
                     if (! consulta.equals(hospede[0]) && ! consulta.equals(hospede[1]) && ! consulta.equals(hospede[2]) && ! consulta.equals(hospede[3]) && ! consulta.equals(hospede[4]) && ! consulta.equals(hospede[5]) && ! consulta.equals(hospede[6]) && ! consulta.equals(hospede[7]) && ! consulta.equals(hospede[8]) && ! consulta.equals(hospede[9]) && ! consulta.equals(hospede[10]) && ! consulta.equals(hospede[11]) && ! consulta.equals(hospede[12]) && ! consulta.equals(hospede[13]) && ! consulta.equals(hospede[14])) {
                         System.out.println("Hóspede não encontrade.");
                     }
-                    
-                    break;
+                }
                 
-                case 3:
+                case 3 -> {
                     i = 15;
                     System.out.println("Programa terminado.");
-                    break;
+                }
 
             }
             
