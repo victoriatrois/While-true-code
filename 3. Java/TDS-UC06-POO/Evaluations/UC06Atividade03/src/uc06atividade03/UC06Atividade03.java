@@ -28,7 +28,6 @@ public class UC06Atividade03 {
         Scanner entrada = new Scanner(System.in);
         
         ArrayList<Funcionario> cadastro = new ArrayList();
-        
         int opcao;
         
         do {
@@ -145,13 +144,12 @@ public class UC06Atividade03 {
                         entrada.nextLine();
                     }
                 }
-                    
             }
         
         if (opcao == 1 && cadastro.size() >= 10) {
             System.out.println("Impossível cadastrar mais funcionários. A capacidade da empresa foi atingida.");
         }
         
-        } while(opcao == 1 || opcao == 2 || opcao == 3 || opcao == 4);
+        } while(opcao == 1 || opcao == 2 || opcao == 3);
     }
 }
