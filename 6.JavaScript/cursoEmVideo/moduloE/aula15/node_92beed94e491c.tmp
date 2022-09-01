@@ -1,0 +1,2 @@
+let numero = [];
+console.log(`Nosso vetor é: ${numero}`);

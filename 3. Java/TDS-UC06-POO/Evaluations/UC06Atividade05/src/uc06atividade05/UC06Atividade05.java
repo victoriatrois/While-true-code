@@ -27,7 +27,7 @@ public class UC06Atividade05 {
         
         do {
             System.out.println("Digite a opção que condiz com o seu perfil:");
-            System.out.println("1 - Gerente;\n2 - Garçom / Cliente;");
+            System.out.println("1 - Gerente;\n2 - Cliente;");
             System.out.println("Digite 3 para sair.");
             perfilUsuario = entrada.nextInt();
             entrada.nextLine();
@@ -41,7 +41,7 @@ public class UC06Atividade05 {
                         entrada.nextLine();
                         
                         if (escolhaGerente < 1 || escolhaGerente > 3) {
-                            System.out.println("Entrada inválida. Digite 1 para cadastrar uma nova pizza, 2 para cadastrar uma nova bebida e 3 para sair.");
+                            System.out.println("Entrada inválida. Digite 1 para cadastrar uma nova pizza, 2 para cadastrar uma nova bebida e 3 para voltar.");
                             
                         } else {
                             switch (escolhaGerente) {
@@ -107,8 +107,36 @@ public class UC06Atividade05 {
                         break;
                         
                     case 2:
-                        System.out.println("garçom / cliente");
+                        //para clientes
+                        
+                        System.out.println("Digite 1 para cardápio, 2 para pedidos, e 3 para voltar.");
+                        int escolhaCliente = entrada.nextInt();
+                        entrada.nextLine();
+                        
+                        if (escolhaCliente < 1 || escolhaCliente > 3) {
+                            System.out.println("Entrada inválida. Digite 1 para cardápio, 2 para pedidos, e 3 para voltar.");
+                            
+                        } else {
+                            switch (escolhaCliente) {
+                                
+                                case 1 -> {//c. listar o cardápio
+                                    break;
+                                }
+                                
+                                case 2 -> {//d. criar pedido e mostrar dados do pedido
+                                    break;
+                                }
+                                
+                                case 3 -> {//e. efetuar pedido
+                                    break;
+                                }
+                            }
+                        }         
+                            
                         break;
+                        
+                        //criar case extra para cozinha?
+                        
                         
                     case 3:
                         System.out.println("Programa encerrado.");
