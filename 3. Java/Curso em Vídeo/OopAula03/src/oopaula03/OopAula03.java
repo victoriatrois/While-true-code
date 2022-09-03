@@ -14,15 +14,16 @@ public class OopAula03 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Caneta c1 = new Caneta();
-        c1.modelo = "Bic Crystal";
-        c1.cor = "azul";
-        //c1.ponta = 0.5f;
-        c1.carga = 80;
-        //c1.tampada = false;
-        c1.destampar();
-        c1.rabiscar();
-        c1.status();
+        Caneta canetaEsferografica = new Caneta(); //instanciar um obj (CRIAR)
+        canetaEsferografica.modelo = "BicCrystal"; 
+        canetaEsferografica.cor = "azul";
+
+        //canetaEsferografica.ponta = 0.5f;
+        canetaEsferografica.carga = 80;
+        canetaEsferografica.tampada = true;
+        //canetaEsferografica.destampa();
+        canetaEsferografica.rabisca();
+        canetaEsferografica.mostraInformacoes();
     }
     
 }

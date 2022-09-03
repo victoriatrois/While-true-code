@@ -9,13 +9,14 @@ package oopaula03;
  * @author v3gc
  */
 public class Caneta {
+    //atributos -> privados
     public String modelo;
     public String cor;
     private float ponta;
     protected int carga;
-    private boolean tampada;
+    public boolean tampada;
     
-    void status(){
+    public void mostraInformacoes(){
         System.out.println("Modelo: "+ this.modelo);
         System.out.println("Uma caneta "+ this.cor);
         System.out.println("Ponta: " + this.ponta);
@@ -23,19 +24,20 @@ public class Caneta {
         System.out.println("Está tampada? "+ this.tampada);
     }
     
-    public void rabiscar(){
+    public void rabisca(){
         if(this.tampada == true){
             System.out.println("ERRO! Para rabiscar destampe a caneta.");
+            
         } else{
             System.out.println("Estou rabiscando.");
         }
     }
     
-    public void tampar(){
+    public void tampa(){
         this.tampada = true;
     }
     
-    public void destampar(){
+    public void destampa(){
         this.tampada = false;
     }
 }
