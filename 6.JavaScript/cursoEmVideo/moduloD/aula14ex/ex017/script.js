@@ -16,7 +16,7 @@ function Multiplica() {
       produto.value = `selectTabuada${multiplicador}`;
       selectTabuada.appendChild(produto);
       multiplicador++;
+
   }
   }
-  
 }

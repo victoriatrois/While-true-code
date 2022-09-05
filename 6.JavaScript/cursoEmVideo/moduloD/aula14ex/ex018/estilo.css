@@ -17,6 +17,11 @@ section{
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
+select {
+  width: fit-content;
+  height: fit-content;
+}
+
 footer{
   color: white;
   text-align: center;

@@ -1,5 +1,4 @@
 let boardSize = 8;
-
 let boardSquares = "";
 
 for (let y = 0; y < boardSize; y++) {
@@ -15,5 +14,4 @@ for (let y = 0; y < boardSize; y++) {
   boardSquares += "\n";
 
 }
-
 console.log(boardSquares);

@@ -66,8 +66,14 @@ public class Cardapio {
     }
     
     public void listaCardapio() {
-        System.out.println("*** " + this.getNomePizzaria() + " ***");
+        System.out.println("*** Sabores ***");
         System.out.println(this.pizza.getNomeProduto());
+        System.out.println(this.pizza.getTamanhoProduto());
+        System.out.println(this.pizza.getPrecoProduto());
+        System.out.println(this.pizza.getListaDeIngredientes() + "\n");
+        System.out.println("*** Bebidas ***");
         System.out.println(this.nomeDaBebida.getNomeProduto());
+        System.out.println(this.nomeDaBebida.getTamanhoProduto());
+        System.out.println(this.nomeDaBebida.getPrecoProduto());
     }
 }

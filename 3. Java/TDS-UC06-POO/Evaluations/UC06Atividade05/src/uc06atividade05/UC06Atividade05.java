@@ -20,7 +20,7 @@ public class UC06Atividade05 {
         Scanner entrada = new Scanner(System.in);
         
         Cardapio cardapio = new Cardapio();
-        Pedido pedido = new Pedido();
+        Pedido itemPedido = new Pedido();
         Stack<Pedido> pedidos = new Stack<>();
         
         int perfilUsuario;
@@ -119,11 +119,15 @@ public class UC06Atividade05 {
                         } else {
                             switch (escolhaCliente) {
                                 
-                                case 1 -> {//c. listar o cardápio
+                                case 1 -> {
+                                    cardapio.listaCardapio();
+                                    
                                     break;
                                 }
                                 
                                 case 2 -> {//d. criar pedido e mostrar dados do pedido
+                                    System.out.print("Digite o sabor desejado: ");
+                                    
                                     break;
                                 }
                                 
