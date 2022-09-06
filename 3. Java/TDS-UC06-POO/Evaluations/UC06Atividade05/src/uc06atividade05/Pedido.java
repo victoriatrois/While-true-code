@@ -12,7 +12,10 @@ import java.util.ArrayList;
  */
 public class Pedido {
     private int numeroDaMesa;
+    private String saborEscolhido;
+    private String bebidaEscolhida;
     private ArrayList<Produto> itemPedido;
+    
     private float valorASerPago;
 
     public int getNumeroDaMesa() {
@@ -34,6 +37,10 @@ public class Pedido {
     public float getValorASerPago() {
         return valorASerPago;
     }
+    
+    public void adicionaProdutoAoPedido(Produto produto) {
+     this.itemPedido.add(produto);
+    }
 
     public void setValorASerPago(float valorASerPago) {
         this.valorASerPago = valorASerPago;
@@ -44,6 +51,22 @@ public class Pedido {
             valorASerPago += cadaItemPedido.getPrecoProduto();
         }
         return valorASerPago;
+    }
+
+    public String getSaborEscolhido() {
+        return saborEscolhido;
+    }
+
+    public void setSaborEscolhido(String saborEscolhido) {
+        this.saborEscolhido = saborEscolhido;
+    }
+
+    public String getBebidaEscolhida() {
+        return bebidaEscolhida;
+    }
+
+    public void setBebidaEscolhida(String bebidaEscolhida) {
+        this.bebidaEscolhida = bebidaEscolhida;
     }
 
     
