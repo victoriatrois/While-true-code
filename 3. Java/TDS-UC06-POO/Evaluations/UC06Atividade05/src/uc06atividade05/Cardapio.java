@@ -66,14 +66,44 @@ public class Cardapio {
     }
     
     public void listaCardapio() {
-        System.out.println("*** Sabores ***");
-        System.out.println(this.pizza.getNomeProduto());
-        System.out.println(this.pizza.getTamanhoProduto());
-        System.out.println(this.pizza.getPrecoProduto());
-        System.out.println(this.pizza.getListaDeIngredientes() + "\n");
-        System.out.println("*** Bebidas ***");
-        System.out.println(this.nomeDaBebida.getNomeProduto());
-        System.out.println(this.nomeDaBebida.getTamanhoProduto());
-        System.out.println(this.nomeDaBebida.getPrecoProduto());
+        if (this.saboresDePizza.isEmpty() && this.bebidas.isEmpty()) {
+            System.out.println("Não há produtos disponíveis.");
+            
+        } else if (this.saboresDePizza.isEmpty()) {
+            System.out.println("Não há pizzas disponíveis.");
+            
+            System.out.println("*** Bebidas ***");
+            System.out.println(this.nomeDaBebida.getNomeProduto());
+            System.out.println(this.nomeDaBebida.getTamanhoProduto());
+            System.out.println(this.nomeDaBebida.getPrecoProduto());
+            
+        } else if (this.bebidas.isEmpty()) {
+            System.out.println("Não há bebidas disponíveis.");
+            
+            System.out.println("*** Pizzas ***");
+            System.out.println(this.pizza.getNomeProduto());
+            System.out.println(this.pizza.getTamanhoProduto());
+            System.out.println(this.pizza.getPrecoProduto());
+            System.out.println(this.pizza.getListaDeIngredientes() + "\n");
+            
+        } else {
+            System.out.println("*** Pizzas ***");
+            System.out.println(this.pizza.getNomeProduto());
+            System.out.println(this.pizza.getTamanhoProduto());
+            System.out.println(this.pizza.getPrecoProduto());
+            System.out.println(this.pizza.getListaDeIngredientes() + "\n");
+            
+            System.out.println("*** Bebidas ***");
+            System.out.println(this.nomeDaBebida.getNomeProduto());
+            System.out.println(this.nomeDaBebida.getTamanhoProduto());
+            System.out.println(this.nomeDaBebida.getPrecoProduto());
+        }
     }
+
+    @Override
+    public String toString() {
+        return "Cardapio{" + "nomePizzaria=" + nomePizzaria + ", pizza=" + pizza + ", saboresDePizza=" + saboresDePizza + ", nomeDaBebida=" + nomeDaBebida + ", bebidas=" + bebidas + '}';
+    }
+    
+    
 }

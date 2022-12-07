@@ -1,6 +1,8 @@
 programa {
 	funcao inicio() {
-	    real peso, altura, IMC
+	    real peso
+	    real altura
+	    real IMC
 	    
 	    escreva("Qual o seu peso? (em quilos) ")
 	    leia(peso)
@@ -10,6 +12,6 @@ programa {
 	    
 	    IMC = peso/(altura*altura)
 	    
-	    escreva("Seu IMC é de ", IMC, ".")
+	    escreva("Seu IMC ƒ de ", IMC, ".")
 	}
 }

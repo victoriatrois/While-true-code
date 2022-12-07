@@ -1,0 +1,6 @@
+Assignment 01
+	• Create ONE web component that incorporates the button and paragraph tags.
+	• This element can be created by extending another HTML element
+	• It should have a template and be able to pass in a dynamic value
+	• The paragraph must have a slot so that the user can set the text inside the component.
+  • The initial state of the paragraph should be controlled by na attribute

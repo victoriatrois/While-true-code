@@ -1,30 +1,33 @@
 programa {
 	funcao inicio() {
 	    
-	    inteiro ano_nasc, ano_atual, mes_nasc, mes_atual, idade
-		
-		escreva("Qual o ano que você nasceu? ")
-		leia(ano_nasc)
-	    limpa()
-	    
-	    escreva("Qual o ano em que estamos? ")
-		leia(ano_atual)
-		limpa()
-		
-		escreva("Qual o mês em que você nasceu? (em números) ")
-		leia(mes_nasc)
-	    limpa()
-	    
-	    escreva("Qual o mês em que estamos? (em números) ")
-		leia(mes_atual)
-		limpa()
-		
-		idade = ano_atual - ano_nasc
-		se(mes_nasc <= mes_atual){
-		escreva("Você tem ", idade, " anos.")
-		}senao{
-		escreva("Você tem ", idade - 1, " anos.")
-	}
-}
+		inteiro anoDeNascimento
+		inteiro anoAtual
+		inteiro mesDeNascimento
+		inteiro mesAatual
+		inteiro idade
 
+		escreva("Qual o ano que voc nasceu? ")
+		leia(anoDeNascimento)
+		limpa()
+	    
+		escreva("Qual o ano em que estamos? ")
+		leia(anoAtual)
+		limpa()
+
+		escreva("Qual o ms em que voc nasceu? (em nœmeros) ")
+		leia(mesDeNascimento)
+		limpa()
+	    
+		escreva("Qual o ms em que estamos? (em nœmeros) ")
+		leia(mesAtual)
+		limpa()
+
+		idade = anoAtual - anoDeNascimento
+		se(mesDeNascimento <= mesAtual){
+			escreva("Voc tem ", idade, " anos.")
+		}senao{
+			escreva("Voc tem ", idade - 1, " anos.")
+		}
+	}
 }

@@ -10,4 +10,17 @@ package uc06atividade05;
  */
 public class Bebida extends Produto {
     
+    public Bebida() {
+        this.setNomeProduto(this.getNomeProduto());
+        this.setPrecoProduto(this.getPrecoProduto());
+        this.setTamanhoProduto(this.getTamanhoProduto());
+    }
+    
+    public Bebida(String nomeDaBebida, float precoDaBebida, String tamanhoDaBebida) {
+        this.setNomeProduto(nomeDaBebida);
+        this.setPrecoProduto(precoDaBebida);
+        this.setTamanhoProduto(tamanhoDaBebida);
+        
+    }
+
 }

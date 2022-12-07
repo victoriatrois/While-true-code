@@ -9,7 +9,6 @@ import java.util.List;
 
 public class UC6atividade5 {
     
-// método para remover capslock, espaço, e similares:    
 public static String removeCaps(String s) {
     s = Normalizer.normalize(s, Normalizer.Form.NFD);
     s = s.replaceAll("[\\p{InCombiningDiacriticalMarks}]", "");
@@ -36,11 +35,11 @@ ArrayList<Pedido> lista_pedidos = new ArrayList();
 while (menu != 7) {
         System.out.print("""
                  \n Selecione qual função você deseja:
-                  1- Cadastrar nova pizza no cardápio
-                  2- Cadastrar nova bebida no cardápio
-                  3- Listar o cardápio
-                  4- Criar pedido e mostrar dados do pedido
-                  5- Cadastrar pedido na cozinha
+                  1- Cadastrar pizza
+                  2- Cadastrar bebida
+                  3- Listar cardápio
+                  4- Criar e mostrar pedido
+                  5- Enviar pedido para cozinha
                   6- Próximo pedido a ser preparado e levado ao cliente  
                   7- Encerrar aplicação
                  """);

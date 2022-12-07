@@ -11,13 +11,16 @@
     }
   </style>
   <script src="tooltip.js"></script>
+  <script src="link-confirmation.js"></script>
 </head>
 <body>
   <p>
     <v3s-tooltip tooltip-description="Web components are a set of standards.">Web components</v3s-tooltip> are awesome.
   </p>
   <p>
-    <v3s-tooltip>Here we go!</v3s-tooltip>
+    <v3s-tooltip></v3s-tooltip>
+    <div>This does nothing to the web component styling!</div>
+    <a is="v3s-link-confirmation" href="https://google.com">Google</a>
   </p>
 </body>
 </html>

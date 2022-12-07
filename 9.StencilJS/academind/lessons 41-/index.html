@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web components</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    html {
+      --color-primary: #8cebf5;
+      font-family: sans-serif;
+    }
+    
+    /*div {
+      border: 2px solid orange;
+    }*/
+
+    /*v3s-tooltip {
+      border: 1px solid blue;
+      padding: 0.15rem;
+    }*/
+
+    .highlight {
+      /*background-color: rgb(247, 204, 136);*/
+      /*border-bottom: 2px solid blue;*/
+    }
+  </style>
+  <script src="tooltip.js"></script>
+  <script src="link-confirmation.js"></script>
+</head>
+<body>
+  <p>
+    <v3s-tooltip class="important" tooltip-description="Web components are a set of standards."><span class="highlight">Web components</span></v3s-tooltip> are awesome.
+  </p>
+  
+  <v3s-tooltip></v3s-tooltip>
+  <!--<div>This does nothing to the web component styling!</div>-->
+  <a is="v3s-link-confirmation" href="https://google.com">Google</a>
+  
+</body>
+</html>

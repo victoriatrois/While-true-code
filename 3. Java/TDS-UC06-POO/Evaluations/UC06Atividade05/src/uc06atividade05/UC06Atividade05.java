@@ -21,7 +21,6 @@ public class UC06Atividade05 {
         Scanner entrada = new Scanner(System.in);
         
         Cardapio cardapio = new Cardapio();
-        Queue<Pedido> pedidos = new PriorityQueue<Pedido>();
         
         System.out.print("Digite o nome da pizzaria que deseja pedir: ");
         cardapio.setNomePizzaria(entrada.nextLine().toUpperCase());
@@ -29,8 +28,8 @@ public class UC06Atividade05 {
         int perfilUsuario;
         do {
             System.out.println("Digite a opção que condiz com o seu perfil:");
-            System.out.println("1 - Gerente;\n2 - Cliente;");
-            System.out.println("Digite 3 para sair.");
+            System.out.println("1 - Gerente;\n2 - Cliente; \n3 - Cozinha");
+            System.out.println("Digite 4 para sair.");
             perfilUsuario = entrada.nextInt();
             entrada.nextLine();
             
@@ -84,20 +83,19 @@ public class UC06Atividade05 {
                                 }
                                     
                                 case 2 -> {
-                                    Bebida bebida = new Bebida();
+                                    
                                     
                                     System.out.print("Digite o nome da bebida: ");
                                     String nomeBebida = entrada.nextLine().toLowerCase();
-                                    bebida.setNomeProduto(nomeBebida);
-                                    
+                                                                        
                                     System.out.print("Digite o valor dessa bebida: ");
                                     Float precoBebida = entrada.nextFloat();
                                     entrada.nextLine();
-                                    bebida.setPrecoProduto(precoBebida);
                                     
                                     System.out.print("Digite o tamanho dessa bebida: ");
                                     String tamanhoBebida = entrada.nextLine().toLowerCase();
-                                    bebida.setTamanhoProduto(tamanhoBebida);
+                                    
+                                    Bebida bebida = new Bebida(nomeBebida, precoBebida, tamanhoBebida);
                                     
                                     cardapio.setNomeDaBebida(bebida);
                                     cardapio.adicionaBebidaAoCardapio(bebida);
@@ -125,6 +123,7 @@ public class UC06Atividade05 {
                                 
                                 case 1 -> {
                                     cardapio.listaCardapio();
+                                    cardapio.toString();
                                     
                                     break;
                                 }
@@ -134,35 +133,28 @@ public class UC06Atividade05 {
                                     
                                     System.out.print("Digite o número da sua mesa: ");
                                     int numeroDaMesa = entrada.nextInt();
+                                    entrada.nextLine();
                                     novoPedido.setNumeroDaMesa(numeroDaMesa);
                                     
-                                    int pizzaOuBebida;
+                                    System.out.println("Deseja escolher \"pizza\" ou \"bebida\"?");
+                                    String pizzaOuBebida = entrada.nextLine().toLowerCase();
                                     
-                                    do {
-                                        System.out.print("Digite 1 para selecionar pizzas, 2 para selecionar bebidas e 3 para voltar. ");
-                                        pizzaOuBebida = entrada.nextInt();
-                                        
-                                        while (pizzaOuBebida < 1 && pizzaOuBebida > 3) {
-                                            System.out.println("Entrada inválida. Digite 1 para selecionar pizzas, 2 para selecionar bebidas e 3 para voltar. ");
-                                            pizzaOuBebida = entrada.nextInt();
+                                    switch(pizzaOuBebida) {
+                                        case "pizza" -> {
+                                            System.out.println("Escolhi pizza");
+                                            break;
                                         }
                                         
-                                        if (pizzaOuBebida == 1) {
-                                            System.out.print("Digite o sabor desejado: ");
-                                            String sabor = entrada.nextLine().toLowerCase();
-                                            
-                                            if (! cardapio.getSaboresDePizza().contains(sabor)) {
-                                                System.out.println("Este sabor não está disponível.");
-                                            } else {
-                                                novoPedido.setSaborEscolhido(sabor);
-                                            }
-                                        } else {
-                                            
+                                        case "bebida" -> {
+                                            System.out.println("Escolhi bebida");
+                                            break;
                                         }
-                                        
-                                    } while (pizzaOuBebida != 3);
+                                        default -> {
+                                            System.out.println("Entrada inválida. Digite \"pizza\" ou \"bebida\".");
+                                        }
+                                    }
                                     
-                                    entrada.nextLine().toLowerCase();
+                                    novoPedido.toString();
                                     
                                     break;
                                 }
