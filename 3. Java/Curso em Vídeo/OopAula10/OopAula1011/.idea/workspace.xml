@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="adae2c8f-9180-4c43-ba39-f521a64c4407" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/Estudante.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/Estudante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/Matriculas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/Matriculas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/SistemaMatriculas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/SistemaMatriculas.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2NFAgax2u8mxhnaPAuwFCMcFw4v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/v3gc/Library/CloudStorage/OneDrive-Personal/1.Programming/While-true-code/3. Java/Curso em Vídeo/OopAula10/OopAula1011"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="adae2c8f-9180-4c43-ba39-f521a64c4407" name="Changes" comment="" />
+      <created>1679249568363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679249568363</updated>
+    </task>
+    <servers />
+  </component>
+</project>
