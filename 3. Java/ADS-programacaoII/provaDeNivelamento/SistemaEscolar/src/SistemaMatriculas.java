@@ -58,23 +58,30 @@ public class SistemaMatriculas {
                     matricula = entrada.nextInt();
 
                     System.out.print("Digite a referência da nota: ");
-                    System.out.println("1 para nota 1,\n2 para nota 2,\netc.: ");
+                    System.out.println(" \"1\" para acessar a avaliação 01,\n\"2\" para acessar a avaliação 02,\nou \"3\" para acessar a avaliação 03: ");
                     referencia = entrada.nextInt();
 
                     System.out.println("Digite a nova nota: ");
                     notaAtualizada = entrada.nextFloat();
 
+                    while(notaAtualizada < 0 || notaAtualizada > 10) {
+                        System.out.println("Valor inválido. A nova nota deve ser um número entre ZERO e DEZ.: ");
+                        notaAtualizada = entrada.nextFloat();
+                        entrada.nextLine();
+                    }
+
                     ano23Sem1.atualizarNotas(matricula, referencia, notaAtualizada);
+                    System.out.println("Nota 0" + referencia + " atualizada com sucesso.");
                     break;
                 case 4:
                     System.out.println("\n********* 4 - Média de notas *********");
                     float mediaColetiva = ano23Sem1.calculaMediaColetiva();
                     if(mediaColetiva <= 2.3) {
                         System.out.printf("Média coletiva: %.2f%n", mediaColetiva);
-                        System.out.println("Cuidado, há muitas notas ZERO registradas.\nEsta pode uma média coletiva PARCIAL.\nÉ possível que apenas as notas da avaliação 01 foram registradas.");
+                        System.out.println("Cuidado, há muitas notas ZERO registradas.\nEsta pode uma média coletiva PARCIAL.\nÉ possível que apenas as notas da avaliação 01 tenham sido registradas.");
                     } else if (mediaColetiva <= 4.6) {
                         System.out.printf("Média coletiva: %.2f%n", mediaColetiva);
-                        System.out.println("Cuidado, há muitas notas ZERO registradas.\nEsta pode ser a média coletiva PARCIAL.\nÉ possível que apenas as notas das avaliações 01 e 02 foram registradas.");
+                        System.out.println("Cuidado, há muitas notas ZERO registradas.\nEsta pode ser a média coletiva PARCIAL.\nÉ possível que apenas as notas das avaliações 01 e 02 tenham sido registradas.");
                     } else {
                         System.out.printf("Média coletiva: %.2f%n", mediaColetiva);
                     }

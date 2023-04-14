@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="adae2c8f-9180-4c43-ba39-f521a64c4407" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/Estudante.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/Estudante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/.idea/libraries/VictoriaTrois_ExeVetor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/.idea/libraries/org_netbeans_modules_java_j2seproject_copylibstask.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/VictoriaTrois_ExeVetor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/src/victoriatrois_exevetor/VictoriaTrois_ExeVetor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_exeVetor.java/out/production/VictoriaTrois_exeVetor.java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_exeVetor.java/out/production/VictoriaTrois_exeVetor.java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_exeVetor.java/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_exeVetor.java/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/out/production/SistemaEscolar/Matriculas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/out/production/SistemaEscolar/Matriculas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/out/production/SistemaEscolar/SistemaMatriculas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/out/production/SistemaEscolar/SistemaMatriculas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/Matriculas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/Matriculas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/SistemaMatriculas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/SistemaMatriculas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,13 +42,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/v3gc/Library/CloudStorage/OneDrive-Personal/1.Programming/While-true-code/3. Java/Curso em Vídeo/OopAula10/OopAula1011"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/v3gc/Library/CloudStorage/OneDrive-Personal/1.Programming/While-true-code/3. Java/Curso em Vídeo/OopAula10/OopAula1011&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -75,10 +75,10 @@ public class Matriculas {
         float mediaColetiva = 0;
 
         for (Estudante estudante : listaDeMatriculas) {
-            somaMediasIndividuais =+ estudante.calculaMediaIndividual();
+            somaMediasIndividuais += estudante.calculaMediaIndividual();
         }
 
-        mediaColetiva = somaMediasIndividuais;
+        mediaColetiva = somaMediasIndividuais/listaDeMatriculas.length;
 
         return mediaColetiva;
     }
