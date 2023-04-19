@@ -4,12 +4,19 @@ public class Remedio {
     private float valor;
     private String laboratorio;
     private boolean disponivel;
+    private int unidadesEmEstoque;
 
     public Remedio() {
         this.nome = this.getNome();
         this.tarja = this.getTarja();
         this.valor = this.getValor();
         this.laboratorio = this.getLaboratorio();
+        this.unidadesEmEstoque = 0;
+        if (this.getUnidadesEmEstoque() > 0) {
+            this.setDisponivel(true);
+        } else {
+            this.setDisponivel(false);
+        }
         this.disponivel = this.isDisponivel();
     }
 
@@ -61,11 +68,27 @@ public class Remedio {
         this.disponivel = disponivel;
     }
 
+    public int getUnidadesEmEstoque() {
+        return unidadesEmEstoque;
+    }
+
+    public void setUnidadesEmEstoque(int unidadesEmEstoque) {
+        this.unidadesEmEstoque = unidadesEmEstoque;
+    }
+
     public void exibeInformacoes() {
         System.out.println("Medicamento: " + this.getNome());
         System.out.println("Tarja: " + this.getTarja());
         System.out.printf("Valor: R$%.2f%n", this.getValor());
         System.out.println("Laboratório responsável: " + this.getLaboratorio());
         System.out.println("Em estoque: " + this.isDisponivel() + "\n");
+    }
+
+    public void incrementaEstoque(int recebidoEmEstoque) {
+        this.unidadesEmEstoque += recebidoEmEstoque;
+    }
+
+    public void decrementaEstoque(int retiradoDoEstoque) {
+        this.unidadesEmEstoque -= retiradoDoEstoque;
     }
 }

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ADS-programacaoII.iml" filepath="$PROJECT_DIR$/.idea/ADS-programacaoII.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula04_ClassesEObjetos/aula04_ClassesEObjetos.iml" filepath="$PROJECT_DIR$/aula04_ClassesEObjetos/aula04_ClassesEObjetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula06_/aula06_.iml" filepath="$PROJECT_DIR$/aula06_/aula06_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enquantoParaExe1/enquantoParaExe1.iml" filepath="$PROJECT_DIR$/enquantoParaExe1/enquantoParaExe1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enquantoParaExe2/enquantoParaExe2.iml" filepath="$PROJECT_DIR$/enquantoParaExe2/enquantoParaExe2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enquantoParaExe3/enquantoParaExe3.iml" filepath="$PROJECT_DIR$/enquantoParaExe3/enquantoParaExe3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enquantoParaExe4/enquantoParaExe4.iml" filepath="$PROJECT_DIR$/enquantoParaExe4/enquantoParaExe4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enquantoParaExe5/enquantoParaExe5.iml" filepath="$PROJECT_DIR$/enquantoParaExe5/enquantoParaExe5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enquantoParaExe7/enquantoParaExe7.iml" filepath="$PROJECT_DIR$/enquantoParaExe7/enquantoParaExe7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enquantoParaExe8/enquantoParaExe8.iml" filepath="$PROJECT_DIR$/enquantoParaExe8/enquantoParaExe8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enquantoParaExe9/enquantoParaExe9.iml" filepath="$PROJECT_DIR$/enquantoParaExe9/enquantoParaExe9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enquantoparaExe6/enquantoparaExe6.iml" filepath="$PROJECT_DIR$/enquantoparaExe6/enquantoparaExe6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provaDeNivelamento/provaDeNivelamento.iml" filepath="$PROJECT_DIR$/provaDeNivelamento/provaDeNivelamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seSenaoExe1/seSenaoExe1.iml" filepath="$PROJECT_DIR$/seSenaoExe1/seSenaoExe1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seSenaoExe2/seSenaoExe2.iml" filepath="$PROJECT_DIR$/seSenaoExe2/seSenaoExe2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seSenaoExe3/seSenaoExe3.iml" filepath="$PROJECT_DIR$/seSenaoExe3/seSenaoExe3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seSenaoExe4/seSenaoExe4.iml" filepath="$PROJECT_DIR$/seSenaoExe4/seSenaoExe4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seSenaoExe5/seSenaoExe5.iml" filepath="$PROJECT_DIR$/seSenaoExe5/seSenaoExe5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seSenaoExe6/seSenaoExe6.iml" filepath="$PROJECT_DIR$/seSenaoExe6/seSenaoExe6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seSenaoExe7/seSenaoExe7.iml" filepath="$PROJECT_DIR$/seSenaoExe7/seSenaoExe7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seSenaoExe8/seSenaoExe8.iml" filepath="$PROJECT_DIR$/seSenaoExe8/seSenaoExe8.iml" />
+    </modules>
+  </component>
+</project>

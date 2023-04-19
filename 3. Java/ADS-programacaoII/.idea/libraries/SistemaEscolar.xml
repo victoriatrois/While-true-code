@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SistemaEscolar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/provaDeNivelamento/SistemaEscolar.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

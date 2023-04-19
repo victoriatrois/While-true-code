@@ -17,6 +17,7 @@ public class Main {
         Livro livro3 = new Livro("Redes, Liberdades e Controle", "934283203023288", 79.80f, "Benjamin Loveluck", "Vozes", true);
 
         empresa1.exibeInformacoes();
+        empresa1.setEndereco("Rua Espírito Santo, 218");
         empresa2.exibeInformacoes();
         empresa3.exibeInformacoes();
 

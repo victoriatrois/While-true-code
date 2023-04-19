@@ -1,23 +1,46 @@
-public class ListaFixa<Tipo> {
+import java.util.Scanner;
+public class ListaFixa {
+    Scanner entrada = new Scanner(System.in);
+    private int[] lista;
     public int tamanho;
-    private Tipo[] elemento;
 
     public ListaFixa(int tamanho) {
         this.tamanho = tamanho;
-        this.elemento = (Tipo[]) new Object[tamanho];
+        this.lista = new int[tamanho];
     }
 
     public int getTamanho() {
         return this.tamanho;
     }
 
-    public Tipo getElemento(int posicao) {
-        return elemento[posicao];
+    public int getElemento(int posicao) {
+        return lista[posicao];
     }
 
-    public void setElemento(int posicao, Tipo valor) {
-        elemento[posicao] = valor;
+    public void insereValor(int posicao, int valor) {
+        lista[posicao] = valor;
     }
 
-    public String
+    public void insereValores() {
+        for (int i = 0; i < this.tamanho; i++) {
+            if(i == this.tamanho - 1) {
+                System.out.println("Digite o último valor.");
+            } else {
+                System.out.println("Digite o " + (i+1) + "º valor.");
+            }
+            this.lista[i] = entrada.nextInt();
+        }
+    }
+    public void exibeListaCompleta() {
+        for (int item : this.lista) {
+            if (item == 0) {
+                System.out.print("[ ] ");
+            } else {
+                System.out.print("[" + item + "] ");
+            }
+        }
+        System.out.println("\n");
+    }
+
+
 }

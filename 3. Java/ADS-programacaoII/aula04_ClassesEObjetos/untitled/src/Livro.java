@@ -5,6 +5,7 @@ public class Livro {
     private String autor;
     private String editora;
     private boolean disponivel; //estoque
+    private int unidadesEmEstoque;
 
     public Livro() {
         this.titulo = this.getTitulo();
@@ -78,5 +79,13 @@ public class Livro {
         System.out.println("Autor(a): " + this.getAutor());
         System.out.println("Editora: " + this.getEditora());
         System.out.println("Disponível: " + this.isDisponivel() + "\n");
+    }
+
+    public void incrementaEstoque(int recebidoEmEstoque) {
+        this.unidadesEmEstoque += recebidoEmEstoque;
+    }
+
+    public void decrementaEstoque(int retiradoDoEstoque) {
+        this.unidadesEmEstoque -= retiradoDoEstoque;
     }
 }
