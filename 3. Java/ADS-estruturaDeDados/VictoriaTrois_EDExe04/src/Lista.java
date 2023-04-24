@@ -57,16 +57,23 @@ public class Lista {
         System.out.println("\n");
     }
 
-    public int retornaExtremos(boolean retornaMaior) {
+    public void exibeValoresExtremos() {
+        int[] valoresExtremos = new int[2];
         int maior;
         int menor;
 
-        if(contaValoresSignificativos() == 0) return 0;
+        valoresExtremos[0] = 0;
+        valoresExtremos[1] = 2147483647;
 
-        maior = 0;
-        menor = 2147483647;
+        maior = valoresExtremos[0];
+        menor = valoresExtremos[1];
 
-        for (int item : this.lista) {
+        if(contaValoresSignificativos() == 0) {
+            valoresExtremos[0] = 0;
+            valoresExtremos[1] = 0;
+        }
+
+        for (int item : lista) {
             if (item != 0 && item > maior) {
                 maior = item;
             } else if (item != 0 && item < menor) {
@@ -74,12 +81,15 @@ public class Lista {
             }
         }
 
-        if(contaValoresSignificativos() == 1) return maior;
+        if(contaValoresSignificativos() == 1) {
+            System.out.println("Há apenas um valor na lista: " + maior);
+        }
 
-        return (retornaMaior) ? maior : menor;
+        System.out.println("O maior valor é: " + maior);
+        System.out.println("O menor valor é: " + menor);
     }
 
-    private int contaValoresSignificativos() {
+    public int contaValoresSignificativos() {
         int quantidade = 0;
 
         for (int item : this.lista) {
@@ -95,9 +105,13 @@ public class Lista {
 
         for (int i = 0; i < this.tamanho; i++) {
             int numeroAleatorio = sorteador.nextInt(100);
-            this.lista[i] = numeroAleatorio + 1;
+            if (numeroAleatorio == 0) {
+                this.lista[i] = numeroAleatorio + 2;
+            } else {
+                this.lista[i] = numeroAleatorio + 1;
+            }
+
         }
-        this.exibeListaCompleta();
     }
 
     public int buscaValorBi(int[] lista, int valorABuscar, int posicaoInicial, int posicaoFinal) {
@@ -155,7 +169,6 @@ public class Lista {
                     this.lista[i] = this.lista[(i + 1)];
                     this.lista[(i + 1)] = auxiliar;
                     troca = true;
-                    this.exibeListaCompleta();
                 }
             }
             tamanho--;
@@ -171,7 +184,6 @@ public class Lista {
                 j--;
             }
             this.lista[j + 1] = key;
-            this.exibeListaCompleta();
         }
     }
 
@@ -186,7 +198,6 @@ public class Lista {
                 }
                 this.lista[j] = subLista;
             }
-            this.exibeListaCompleta();
         }
     }
 
@@ -204,17 +215,19 @@ public class Lista {
             int auxiliar = this.lista[posicaoMenorValor];
             this.lista[posicaoMenorValor] = this.lista[i];
             this.lista[i] = auxiliar;
-            this.exibeListaCompleta();
         }
     }
 
-    public void quickSort(int[] lista, int posicaoInicial, int posicaoFinal) {
+    public int quickSort(int[] lista, int posicaoInicial, int posicaoFinal) {
+        int comparacoes;
+        comparacoes = 0;
         if (posicaoInicial < posicaoFinal) {
             int posicaoPivo = this.divideLista(lista, posicaoInicial, posicaoFinal);
-//            comparacoes += (posicaoFinal - posicaoInicial); // add comparisons made in partition() to total
-//            comparacoes += quickSort(lista, posicaoInicial, posicaoPivo - 1);
-//            comparacoes += quickSort(lista, posicaoPivo + 1, posicaoFinal);
+            comparacoes += (posicaoFinal - posicaoInicial); // add comparisons made in partition() to total
+            comparacoes += quickSort(lista, posicaoInicial, posicaoPivo - 1);
+            comparacoes += quickSort(lista, posicaoPivo + 1, posicaoFinal);
         }
+        return comparacoes;
     }
 
     private int divideLista(int[] lista, int posicaoInicial, int posicaoFinal) {
@@ -227,13 +240,12 @@ public class Lista {
             }
         }
         this.troca(lista, i + 1, posicaoFinal);
-        this.exibeListaCompleta();
         return i + 1;
     }
 
     private void troca(int[] lista, int posicaoInicial, int posicaoFinal) {
-        int listaAuxiliar = this.lista[posicaoInicial];
-        this.lista[posicaoInicial] = this.lista[posicaoFinal];
-        this.lista[posicaoFinal] = listaAuxiliar;
+        int listaAuxiliar = lista[posicaoInicial];
+        lista[posicaoInicial] = lista[posicaoFinal];
+        lista[posicaoFinal] = listaAuxiliar;
     }
 }
