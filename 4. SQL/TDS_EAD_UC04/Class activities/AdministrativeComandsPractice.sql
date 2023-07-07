@@ -13,7 +13,7 @@ SELECT
 FROM
     mysql.user;
 
-create user 'vicky3'@'localhost' identified by '@Z03yS2mySQL';
+create user 'vicky3'@'localhost' identified by '@Senh4mySQL';
 
 -- Concedendo todas as permissões possíveis a um usuário
 grant all privileges on *.* to 'vicky3'@'localhost';

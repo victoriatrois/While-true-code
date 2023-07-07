@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe984ec0-be3a-4f01-a61f-6de6f1f124cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/MemoriaCacheEAlgoritmosDeSubstituicao/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/MemoriaCacheEAlgoritmosDeSubstituicao/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/MemoriaCacheEAlgoritmosDeSubstituicao/MemoriaCacheEAlgoritmosDeSubstituicao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/MemoriaCacheEAlgoritmosDeSubstituicao/src/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/MemoriaCacheEAlgoritmosDeSubstituicao/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/atividadeAvaliativa01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/src/AlgoritmosDeSubstituicao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/src/AtribuidorDeEntradas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/src/FIFO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/src/MemoriaCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/src/MemoriaPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/AlgoritmoDeSubstituicao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/Cache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/ExtratorDeLinhas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/FIFO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/LFU.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/LRU.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/ListaDuplamenteEncadeada.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/ListaFixa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/Nodo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/trabalho01_AEO/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/AlgoritmoDeSubstituicao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/ExtratorDeLinhas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/FIFO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/Fila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/LFU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/LRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/ListaDuplamenteEncadeada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-estruturaDeDados/VictoriaTrois_EDExe05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-estruturaDeDados/VictoriaTrois_EDExe05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-estruturaDeDados/VictoriaTrois_EDExe05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-estruturaDeDados/VictoriaTrois_EDExe05/ListaDuplamenteEncadeada/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-estruturaDeDados/VictoriaTrois_EDExe06/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-estruturaDeDados/VictoriaTrois_EDExe06/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-estruturaDeDados/VictoriaTrois_EDExe06/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-estruturaDeDados/VictoriaTrois_EDExe06/untitled/src/ArvoreAVL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-estruturaDeDados/VictoriaTrois_EDExe06/untitled/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-estruturaDeDados/VictoriaTrois_EDExe06/untitled/src/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ADS-estruturaDeDados/VictoriaTrois_EDExe06/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula06_MetodosAssessoresEArrayList/MemoriaCacheEAlgoritmosDeSubstituicao/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula06_MetodosAssessoresEArrayList/MemoriaCacheEAlgoritmosDeSubstituicao/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula07_sistemaLivrariaV1/SistemaLivraria/SistemaLivraria.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula07_sistemaLivrariaV1/SistemaLivraria/src/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula07_sistemaLivrariaV1/SistemaLivraria/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/ExercitandoHeranca.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/out/production/ExercitandoHeranca/Aviao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/out/production/ExercitandoHeranca/Caminhao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/out/production/ExercitandoHeranca/Carro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/out/production/ExercitandoHeranca/Helicopitero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/out/production/ExercitandoHeranca/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/out/production/ExercitandoHeranca/Moto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/out/production/ExercitandoHeranca/Navio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/out/production/ExercitandoHeranca/Submarino.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/out/production/ExercitandoHeranca/Veiculo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/out/production/ExercitandoHeranca/VeiculoAereo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/out/production/ExercitandoHeranca/VeiculoMaritmo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/out/production/ExercitandoHeranca/VeiculoTerrestre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/src/Aviao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/src/Caminhao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/src/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/src/Helicopitero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/src/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/src/Navio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/src/Submarino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/src/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/src/VeiculoAereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/src/VeiculoMaritmo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercitandoHeranca/src/VeiculoTerrestre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Victoria_AtividadeTeorica_AgregacaoComposicao.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Victoria_AtividadeTeorica_AgregacaoComposicao.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Victoria_AtividadeTeorica_DiagramaDeClasses.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Victoria_AtividadeTeorica_DiagramaDeClasses.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classeLivro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula09_sistemaLivrariaV2/SistemaLivraria/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula09_sistemaLivrariaV2/SistemaLivraria/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula09_sistemaLivrariaV2/SistemaLivraria/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula09_sistemaLivrariaV2/SistemaLivraria/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula09_sistemaLivrariaV2/SistemaLivraria/SistemaLivraria.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula09_sistemaLivrariaV2/SistemaLivraria/out/production/SistemaLivraria/Livro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula09_sistemaLivrariaV2/SistemaLivraria/out/production/SistemaLivraria/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula09_sistemaLivrariaV2/SistemaLivraria/src/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula09_sistemaLivrariaV2/SistemaLivraria/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TDS-UC06-POO/Class activities/EstruturasJava1/.idea/libraries/org_netbeans_modules_java_j2seproject_copylibstask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TDS-UC06-POO/Class activities/EstruturasJava1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TDS-UC06-POO/Class activities/EstruturasJava1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TDS-UC06-POO/Class activities/EstruturasJava1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TDS-UC06-POO/Class activities/EstruturasJava1/EstruturasJava1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ADS-estruturaDeDados/VictoriaTrois_EDExe04/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ADS-estruturaDeDados/VictoriaTrois_EDExe04/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ADS-programacaoI/topico13/GeraFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ADS-programacaoI/topico13/GeraFibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04_ClassesEObjetos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula04_ClassesEObjetos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula06_MetodosAssessoresEArrayList/ArrayList/out/production/ArrayList/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../aula06_MetodosAssessoresEArrayList/ArrayList/out/production/ArrayList/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula06_MetodosAssessoresEArrayList/ArrayList/out/production/ArrayList/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/../aula06_MetodosAssessoresEArrayList/ArrayList/out/production/ArrayList/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula06_MetodosAssessoresEArrayList/ArrayList/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula06_MetodosAssessoresEArrayList/ArrayList/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula06_MetodosAssessoresEArrayList/ArrayList/src/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula06_MetodosAssessoresEArrayList/ArrayList/src/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portugolToJavaPractice/toJavaExercise/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../portugolToJavaPractice/toJavaExercise/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../4. SQL/TDS_EAD_UC04/Class activities/AdministrativeComandsPractice.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../4. SQL/TDS_EAD_UC04/Class activities/AdministrativeComandsPractice.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2R2C8zJOVvsz9pAQYNSCDre7ERN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/v3gc/Library/CloudStorage/OneDrive-Personal/1.Programming/While-true-code/3. Java/ADS-programacaoII/aula08_herancaECSV"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe984ec0-be3a-4f01-a61f-6de6f1f124cb" name="Changes" comment="" />
+      <created>1686438633474</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686438633474</updated>
+    </task>
+    <servers />
+  </component>
+</project>

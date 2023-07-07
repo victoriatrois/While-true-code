@@ -1,0 +1,6 @@
+#FL01,Barra Sul,Diário de Noticias 80,3221-6369
+3426,compiladores,2012,computação,pearson,R$135.50,50
+2631,sistemas digitais,2017,computação,liber,R$99.90,30
+9680,senhor dos aneis: a sociedade do anel,2005,fantasia,harper,R$35.00,120
+#FL02,Centro,Andradas 1312,3020-2253
+9680,senhor dos aneis: a sociedade do anel,2005,fantasia,harper,R$35.00,20

@@ -5,29 +5,135 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adae2c8f-9180-4c43-ba39-f521a64c4407" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/.idea/libraries/VictoriaTrois_ExeVetor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/.idea/libraries/org_netbeans_modules_java_j2seproject_copylibstask.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/VictoriaTrois_ExeVetor.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/lib/nblibraries.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_ExeVetor/src/victoriatrois_exevetor/VictoriaTrois_ExeVetor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_exeVetor.java/out/production/VictoriaTrois_exeVetor.java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_exeVetor.java/out/production/VictoriaTrois_exeVetor.java/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_exeVetor.java/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_exeVetor.java/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/out/production/SistemaEscolar/Matriculas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/out/production/SistemaEscolar/Matriculas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/out/production/SistemaEscolar/SistemaMatriculas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/out/production/SistemaEscolar/SistemaMatriculas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/Matriculas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/Matriculas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/SistemaMatriculas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/provaDeNivelamento/SistemaEscolar/src/SistemaMatriculas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/MemoriaCacheEAlgoritmosDeSubstituicao/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/MemoriaCacheEAlgoritmosDeSubstituicao/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/MemoriaCacheEAlgoritmosDeSubstituicao/MemoriaCacheEAlgoritmosDeSubstituicao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/MemoriaCacheEAlgoritmosDeSubstituicao/src/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/MemoriaCacheEAlgoritmosDeSubstituicao/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/atividadeAvaliativa01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/src/AlgoritmosDeSubstituicao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/src/AtribuidorDeEntradas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/src/FIFO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/src/MemoriaCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/aula07_memoriaCacheEAlgoritmosDeSubstituicao/atividadeAvaliativa01/src/MemoriaPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/AlgoritmoDeSubstituicao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/Cache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/ExtratorDeLinhas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/FIFO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/LFU.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/LRU.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/ListaDuplamenteEncadeada.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/ListaFixa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/out/production/trabalho01_algoritmosCache/Nodo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/trabalho01_AEO/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/trabalho01_AEO/trabalho01_AEO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/trabalho01_algoritmosCache.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/AlgoritmoDeSubstituicao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/ExtratorDeLinhas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/FIFO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/Fila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/LFU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/LRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/ListaDuplamenteEncadeada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/src/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-arquiteturaEOrganizacaoDeComputadores/trabalho01_algoritmosCache/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe05/ListaDuplamenteEncadeada/ListaDuplamenteEncadeada.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe05/ListaDuplamenteEncadeada/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe05/VictoriaTrois_EDExe05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe06/VictoriaTrois_EDExe06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe06/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe06/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe06/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe06/untitled/src/ArvoreAVL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe06/untitled/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe06/untitled/src/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe06/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula06_MetodosAssessoresEArrayList/MemoriaCacheEAlgoritmosDeSubstituicao/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula06_MetodosAssessoresEArrayList/MemoriaCacheEAlgoritmosDeSubstituicao/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula07_sistemaLivrariaV1/SistemaLivraria/SistemaLivraria.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula07_sistemaLivrariaV1/SistemaLivraria/src/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula07_sistemaLivrariaV1/SistemaLivraria/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/ExercitandoHeranca.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/out/production/ExercitandoHeranca/Aviao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/out/production/ExercitandoHeranca/Caminhao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/out/production/ExercitandoHeranca/Carro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/out/production/ExercitandoHeranca/Helicopitero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/out/production/ExercitandoHeranca/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/out/production/ExercitandoHeranca/Moto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/out/production/ExercitandoHeranca/Navio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/out/production/ExercitandoHeranca/Submarino.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/out/production/ExercitandoHeranca/Veiculo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/out/production/ExercitandoHeranca/VeiculoAereo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/out/production/ExercitandoHeranca/VeiculoMaritmo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/out/production/ExercitandoHeranca/VeiculoTerrestre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/src/Aviao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/src/Caminhao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/src/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/src/Helicopitero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/src/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/src/Navio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/src/Submarino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/src/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/src/VeiculoAereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/src/VeiculoMaritmo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/ExercitandoHeranca/src/VeiculoTerrestre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/Victoria_AtividadeTeorica_AgregacaoComposicao.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/Victoria_AtividadeTeorica_AgregacaoComposicao.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/Victoria_AtividadeTeorica_DiagramaDeClasses.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/Victoria_AtividadeTeorica_DiagramaDeClasses.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/aula08_herancaECSV.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula08_herancaECSV/classeLivro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula09_sistemaLivrariaV2/SistemaLivraria/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula09_sistemaLivrariaV2/SistemaLivraria/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula09_sistemaLivrariaV2/SistemaLivraria/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula09_sistemaLivrariaV2/SistemaLivraria/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula09_sistemaLivrariaV2/SistemaLivraria/SistemaLivraria.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula09_sistemaLivrariaV2/SistemaLivraria/out/production/SistemaLivraria/Livro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula09_sistemaLivrariaV2/SistemaLivraria/out/production/SistemaLivraria/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula09_sistemaLivrariaV2/SistemaLivraria/src/Estoque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula09_sistemaLivrariaV2/SistemaLivraria/src/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula09_sistemaLivrariaV2/SistemaLivraria/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula09_sistemaLivrariaV2/aula09_sistemaLivrariaV2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula11_PetshopV1/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula11_PetshopV1/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula11_PetshopV1/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula11_PetshopV1/untitled/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula11_PetshopV1/untitled/src/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula11_PetshopV1/untitled/src/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula11_PetshopV1/untitled/src/Tutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula11_PetshopV1/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TDS-UC06-POO/Class activities/EstruturasJava1/.idea/libraries/org_netbeans_modules_java_j2seproject_copylibstask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TDS-UC06-POO/Class activities/EstruturasJava1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TDS-UC06-POO/Class activities/EstruturasJava1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TDS-UC06-POO/Class activities/EstruturasJava1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TDS-UC06-POO/Class activities/EstruturasJava1/EstruturasJava1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe04/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-estruturaDeDados/VictoriaTrois_EDExe04/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoI/topico13/GeraFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoI/topico13/GeraFibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/aula04_ClassesEObjetos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula04_ClassesEObjetos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/aula06_MetodosAssessoresEArrayList/ArrayList/out/production/ArrayList/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula06_MetodosAssessoresEArrayList/ArrayList/out/production/ArrayList/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/aula06_MetodosAssessoresEArrayList/ArrayList/out/production/ArrayList/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula06_MetodosAssessoresEArrayList/ArrayList/out/production/ArrayList/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/aula06_MetodosAssessoresEArrayList/ArrayList/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula06_MetodosAssessoresEArrayList/ArrayList/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ADS-programacaoII/aula06_MetodosAssessoresEArrayList/ArrayList/src/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ADS-programacaoII/aula06_MetodosAssessoresEArrayList/ArrayList/src/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../portugolToJavaPractice/toJavaExercise/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../portugolToJavaPractice/toJavaExercise/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4. SQL/TDS_EAD_UC04/Class activities/AdministrativeComandsPractice.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4. SQL/TDS_EAD_UC04/Class activities/AdministrativeComandsPractice.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
