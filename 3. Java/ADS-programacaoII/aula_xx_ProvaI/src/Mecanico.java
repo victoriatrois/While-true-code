@@ -1,22 +1,16 @@
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class Mecanico extends Pessoa {
-    private String especialidade;
+    protected String especialidade;
 
-    private ArrayList<Servico> filaDeServicos;
-    private double salario;
+    protected ArrayList<Servico> filaDeServicos;
+    protected double salario;
 
-    public Mecanico() {
-
-    }
-
-    public Mecanico(String nomeCompleto, String telefone, String especialidade, double salario, Servico[] servicos) {
+    public Mecanico(String nomeCompleto, String telefone, String especialidade, ArrayList<Servico> filaDeServicos, double salario) {
         super(nomeCompleto, telefone);
         this.especialidade = especialidade;
+        this.filaDeServicos = filaDeServicos;
         this.salario = salario;
-        this.filaDeServicos = new ArrayList<>();
-        Collections.addAll(this.filaDeServicos, servicos);
     }
 
     public String getEspecialidade() {
@@ -44,8 +38,8 @@ public class Mecanico extends Pessoa {
     }
 
     public void listaFilaDeServicos() {
-        if (this.filaDeServicos.size() > 0) {
-            for (Servico servico : this.filaDeServicos) {
+        if (this.getFilaDeServicos().size() > 0) {
+            for (Servico servico : this.getFilaDeServicos()) {
                 System.out.println("Serviço#" + servico.getCodigo());
                 System.out.println("\tCarro: ");
                 servico.getCarroEmServico().exibeInformacoes();
@@ -59,12 +53,12 @@ public class Mecanico extends Pessoa {
     }
 
     public void atribuiServico(Servico servico) {
-        this.filaDeServicos.add(servico);
-        this.filaDeServicos.get(filaDeServicos.size() - 1).setCodigo(servico.getCodigo());
-        this.filaDeServicos.get(filaDeServicos.size() - 1).setValor(servico.getValor());
-        this.filaDeServicos.get(filaDeServicos.size() - 1).setMecanicoResponsavel(servico.getMecanicoResponsavel());
-        this.filaDeServicos.get(filaDeServicos.size() - 1).setCarroEmServico(carro);
-        this.filaDeServicos.get(filaDeServicos.size() - 1).setDescricaoDoServico(servico.getDescricaoDoServico());
+        this.getFilaDeServicos().add(servico);
+        this.getFilaDeServicos().get(getFilaDeServicos().size() - 1).setCodigo(servico.getCodigo());
+        this.getFilaDeServicos().get(getFilaDeServicos().size() - 1).setValor(servico.getValor());
+        this.getFilaDeServicos().get(getFilaDeServicos().size() - 1).setMecanicoResponsavel(servico.getMecanicoResponsavel());
+        this.getFilaDeServicos().get(getFilaDeServicos().size() - 1).setCarroEmServico(servico.getCarroEmServico());
+        this.getFilaDeServicos().get(getFilaDeServicos().size() - 1).setDescricaoDoServico(servico.getDescricaoDoServico());
     }
 
     public void alteraEspecialidade() {

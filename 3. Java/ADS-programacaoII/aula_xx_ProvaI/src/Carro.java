@@ -2,20 +2,15 @@ import java.util.Scanner;
 
 public class Carro {
     Scanner entrada = new Scanner(System.in);
-    private String modelo;
-    private int ano;
-    private Pessoa proprietario;
-    private String observacoes;
-
-    public Carro() {
-
-    }
+    protected String modelo;
+    protected int ano;
+    protected Pessoa proprietario;
+    protected String observacoes;
 
     public Carro(String modelo, int ano, Pessoa proprietario, String observacoes) {
         this.modelo = modelo;
         this.ano = ano;
-        this.proprietario = new Pessoa();
-        this.setProprietario(proprietario);
+        this.proprietario = proprietario;
         this.observacoes = observacoes;
     }
 

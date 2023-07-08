@@ -2,12 +2,8 @@ import java.util.Scanner;
 
 public class Pessoa {
     Scanner entrada = new Scanner(System.in);
-    private String nomeCompleto;
-    private String telefone;
-
-    public Pessoa() {
-
-    }
+    protected String nomeCompleto;
+    protected String telefone;
 
     public Pessoa(String nomeCompleto, String telefone) {
         this.nomeCompleto = nomeCompleto;
