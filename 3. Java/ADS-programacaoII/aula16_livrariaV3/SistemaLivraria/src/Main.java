@@ -6,14 +6,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner entrada;
         String caminhoDoArquivo;
-        Estoque estoque;
+        Estoque estoqueDasFiliais;
         int opcao;
         List<Filial> filiais;
 
 
         entrada = new Scanner(System.in);
         caminhoDoArquivo = "src/estoque.txt";
-        estoque = new Estoque(caminhoDoArquivo);
+        estoqueDasFiliais = new Estoque(caminhoDoArquivo);
         filiais = new ArrayList<>();
         opcao = -1;
 
@@ -106,7 +106,7 @@ public class Main {
 
                 case 2 -> {
                     System.out.println("2 - Listar livros");
-//                    estoque.exibeEstoque();
+                    estoqueDasFiliais.exibeEstoque();
 
                     for (Filial filial : filiais) {
                         System.out.print("#FL");
@@ -123,7 +123,7 @@ public class Main {
                     boolean haResultados;
                     List<Livro> livros;
 
-                    livros = estoque.getLivros();
+                    livros = estoqueDasFiliais.getLivros();
                     haResultados = false;
 
                     System.out.println("3 - Buscar livros por título");
@@ -147,7 +147,7 @@ public class Main {
                     boolean haResultados;
                     List<Livro> livros;
 
-                    livros = estoque.getLivros();
+                    livros = estoqueDasFiliais.getLivros();
                     haResultados = false;
 
                     System.out.println("4 - Buscar livros por categoria");
@@ -171,7 +171,7 @@ public class Main {
                     boolean haResultados;
                     List<Livro> livros;
 
-                    livros = estoque.getLivros();
+                    livros = estoqueDasFiliais.getLivros();
                     haResultados = false;
 
                     System.out.println("5 - Burcar livros por preço");
@@ -195,7 +195,7 @@ public class Main {
                     boolean haResultados;
                     List<Livro> livros;
 
-                    livros = estoque.getLivros();
+                    livros = estoqueDasFiliais.getLivros();
                     haResultados = false;
 
                     System.out.println("6 - Buscar livros por quantidade no estoque");
@@ -217,7 +217,7 @@ public class Main {
                     float estoqueTotal;
                     List<Livro> livros;
 
-                    livros = estoque.getLivros();
+                    livros = estoqueDasFiliais.getLivros();
                     estoqueTotal = 0;
 
                     System.out.println("7 - Exibir total em estoque");
@@ -229,7 +229,7 @@ public class Main {
 
                 case 8 -> {
                     System.out.println("8 - Carregar estoque");
-                    filiais.addAll(estoque.carregaEstoque(caminhoDoArquivo));
+                    filiais.addAll(estoqueDasFiliais.carregaEstoque(caminhoDoArquivo));
                     for (Filial filial : filiais) {
                         filial.getEstoque().exibeEstoque();
                     }
@@ -237,7 +237,7 @@ public class Main {
 
                 case 9 -> {
                     System.out.println("9 - Atualizar arquivo de estoque");
-                    estoque.registraEstoqueEmArquivo();
+                    estoqueDasFiliais.registraEstoqueEmArquivo();
                 }
 
                 default -> geraMenu();
