@@ -1,0 +1,65 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13580\viewh9900\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 section .text\
+    global _start\
+\
+_start:\
+    mov al, [primeiroNumero]\
+    mov bl, [segundoNumero]\
+    \
+    cmp al, bl\
+    \
+    je saoIguais\
+    \
+    cmp al, bl\
+    \
+    jg primeiroEhMaior\
+    \
+    segundaEhMaior:\
+        sub bl, al\
+        add bl, '0'\
+        mov [subtracao], bl\
+        mov eax, 4\
+        mov ebx, 1\
+        mov ecx, subtracao\
+        mov edx, 1\
+        int 0x80\
+        jmp saida\
+    \
+    saoIguais:\
+        mov eax, 4\
+        mov ebx, 1\
+        mov ecx, mensagemSeIguais\
+        mov edx, lenMensagemIguais\
+        int 0x80\
+        jmp saida\
+        \
+    primeiroEhMaior:\
+        sub al, bl\
+        add al, '0'\
+        mov [subtracao], al\
+        mov eax, 4\
+        mov ebx, 1\
+        mov ecx, subtracao\
+        mov edx, 1\
+        int 0x80\
+        jmp saida										; desvia a execu\'e7\'e3o do c\'f3digo at\'e9 a se\'e7\'e3o saida:\
+        \
+section .data\
+    primeiroNumero db 1								; atribui valor \'e0 variavel primeiroNumero\
+    segundoNumero db 4								; atribui valor \'e0 variavel segundoNumero\
+    mensagemSeIguais db 'A subtra\'e7\'e3o dos valores \'e9 zero.'	; atribui valor \'e0 variavel mensagemSeIguais\
+    lenMensagemIguais equ $ - mensagemSeIguais			; pega o tamanho do valor da vari\'e1vel lenMensagemIguais e atribui a lenMensagemIguais \
+    \
+section .bss\
+    subtracao resb 1 									; cria vari\'e1vel e reserva espa\'e7o na mem\'f3ria\
+    \
+saida: \
+    mov eax, 1\
+    xor ebx, ebx ; porque isso t\'e1 aqui mesmo?\
+    int 0x80}
