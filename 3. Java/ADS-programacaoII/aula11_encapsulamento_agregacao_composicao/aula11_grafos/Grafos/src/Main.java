@@ -166,6 +166,7 @@ public class Main {
 
                     Aresta conexao = new Aresta(origem, destino, distancia);
                     grafo.setConexao(conexao);
+                    //cidade[0].vizinhanca.add(
 
                     System.out.println("Conexão cadastrada com sucesso!");
                 }

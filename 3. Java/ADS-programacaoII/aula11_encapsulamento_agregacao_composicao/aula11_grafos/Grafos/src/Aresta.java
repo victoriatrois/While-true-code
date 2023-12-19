@@ -7,6 +7,7 @@ public class Aresta {
         this.origem = origem;
         this.destino = destino;
         this.distancia = distancia;
+        //this.destino.viznhanca.add(this.origem)
     }
 
     public Vertice getOrigem() {
