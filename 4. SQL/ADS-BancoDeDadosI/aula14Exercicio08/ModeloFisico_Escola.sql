@@ -1,4 +1,4 @@
-drop database escola;
+#drop database escola;
 create database escola;
 use escola;
 create table aluno (
