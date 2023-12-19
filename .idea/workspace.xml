@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a59159c-4714-4642-bd36-d98c671046d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14. Java + Spring Boot/.idea/14. Java + Spring Boot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14. Java + Spring Boot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14. Java + Spring Boot/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14. Java + Spring Boot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14. Java + Spring Boot/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14. Java + Spring Boot/spring-boot-3-spring-6-hibernate-for-beginners" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/ADS-programacaoII/aula09_10_livrariaV2/aula09_sistemaLivrariaV2/SistemaLivraria/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/ADS-programacaoII/aula14_sistemaBancario/SistemaBancario/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/.idea/SpringBoot3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/.idea/sonarlint/issuestore/2/4/24bfce2d5ea34583f1d9ef6832304e942ef2ee40" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/.idea/sonarlint/issuestore/b/8/b8fdc89e242e7ae5f9eb54dacd5004350dcfc098" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/.idea/sonarlint/securityhotspotstore/2/4/24bfce2d5ea34583f1d9ef6832304e942ef2ee40" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/.idea/sonarlint/securityhotspotstore/b/8/b8fdc89e242e7ae5f9eb54dacd5004350dcfc098" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/01-spring-boot-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/01-spring-boot-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/01-spring-boot-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/01-spring-boot-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/01-spring-boot-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/01-spring-boot-demo/src/main/java/com/springboot/course/myapp/MyappApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/01-spring-boot-demo/src/main/java/com/springboot/course/myapp/rest/MyRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/01-spring-boot-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/01-spring-boot-demo/src/test/java/com/springboot/course/myapp/MyappApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/02-dev-tools-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/02-dev-tools-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/02-dev-tools-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/02-dev-tools-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/02-dev-tools-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/02-dev-tools-demo/src/main/java/com/springboot/course/myapp/MyappApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/02-dev-tools-demo/src/main/java/com/springboot/course/myapp/rest/MyRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/02-dev-tools-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/02-dev-tools-demo/src/test/java/com/springboot/course/myapp/MyappApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/03-actuator-demo /.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/03-actuator-demo /.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/03-actuator-demo /mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/03-actuator-demo /mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/03-actuator-demo /pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/03-actuator-demo /src/main/java/com/springboot/course/myapp/MyappApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/03-actuator-demo /src/main/java/com/springboot/course/myapp/rest/MyRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/03-actuator-demo /src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/03-actuator-demo /src/test/java/com/springboot/course/myapp/MyappApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/04-actuator-security-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/04-actuator-security-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/04-actuator-security-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/04-actuator-security-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/04-actuator-security-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/04-actuator-security-demo/src/main/java/com/springboot/course/myapp/MyappApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/04-actuator-security-demo/src/main/java/com/springboot/course/myapp/rest/MyRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/04-actuator-security-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/04-actuator-security-demo/src/test/java/com/springboot/course/myapp/MyappApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/05-command-line-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/05-command-line-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/05-command-line-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/05-command-line-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/05-command-line-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/05-command-line-demo/src/main/java/com/springboot/course/myapp/MyappApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/05-command-line-demo/src/main/java/com/springboot/course/myapp/rest/MyRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/05-command-line-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/05-command-line-demo/src/test/java/com/springboot/course/myapp/MyappApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/06-properties-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/06-properties-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/06-properties-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/06-properties-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/06-properties-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/06-properties-demo/src/main/java/com/springboot/course/myapp/MyappApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/06-properties-demo/src/main/java/com/springboot/course/myapp/rest/MyRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/06-properties-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/01-spring-boot-overview/06-properties-demo/src/test/java/com/springboot/course/myapp/MyappApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/01-constructor-injection/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/01-constructor-injection/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/01-constructor-injection/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/01-constructor-injection/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/01-constructor-injection/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/01-constructor-injection/src/main/java/com/myproject/springcoredemo/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/01-constructor-injection/src/main/java/com/myproject/springcoredemo/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/01-constructor-injection/src/main/java/com/myproject/springcoredemo/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/01-constructor-injection/src/main/java/com/myproject/springcoredemo/SpringcoredemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/01-constructor-injection/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/01-constructor-injection/src/test/java/com/myproject/springcoredemo/SpringcoredemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/02-component-scanning/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/02-component-scanning/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/02-component-scanning/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/02-component-scanning/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/02-component-scanning/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/02-component-scanning/src/main/java/com/myproject/springcoredemo/SpringcoredemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/02-component-scanning/src/main/java/com/myproject/springcoredemo/common/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/02-component-scanning/src/main/java/com/myproject/springcoredemo/common/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/02-component-scanning/src/main/java/com/myproject/springcoredemo/rest/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/02-component-scanning/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/02-component-scanning/src/test/java/com/myproject/springcoredemo/SpringcoredemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/03-setter-injection/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/03-setter-injection/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/03-setter-injection/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/03-setter-injection/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/03-setter-injection/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/03-setter-injection/src/main/java/com/myproject/springcoredemo/SpringcoredemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/03-setter-injection/src/main/java/com/myproject/springcoredemo/common/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/03-setter-injection/src/main/java/com/myproject/springcoredemo/common/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/03-setter-injection/src/main/java/com/myproject/springcoredemo/rest/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/03-setter-injection/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/03-setter-injection/src/test/java/com/myproject/springcoredemo/SpringcoredemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/04-qualifiers/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/04-qualifiers/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/04-qualifiers/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/04-qualifiers/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/04-qualifiers/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/04-qualifiers/src/main/java/com/myproject/springcoredemo/SpringcoredemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/04-qualifiers/src/main/java/com/myproject/springcoredemo/common/BaseballCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/04-qualifiers/src/main/java/com/myproject/springcoredemo/common/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/04-qualifiers/src/main/java/com/myproject/springcoredemo/common/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/04-qualifiers/src/main/java/com/myproject/springcoredemo/common/TennisCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/04-qualifiers/src/main/java/com/myproject/springcoredemo/common/TrackCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/04-qualifiers/src/main/java/com/myproject/springcoredemo/rest/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/04-qualifiers/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/04-qualifiers/src/test/java/com/myproject/springcoredemo/SpringcoredemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/05-primary/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/05-primary/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/05-primary/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/05-primary/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/05-primary/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/05-primary/src/main/java/com/myproject/springcoredemo/SpringcoredemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/05-primary/src/main/java/com/myproject/springcoredemo/common/BaseballCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/05-primary/src/main/java/com/myproject/springcoredemo/common/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/05-primary/src/main/java/com/myproject/springcoredemo/common/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/05-primary/src/main/java/com/myproject/springcoredemo/common/TennisCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/05-primary/src/main/java/com/myproject/springcoredemo/common/TrackCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/05-primary/src/main/java/com/myproject/springcoredemo/rest/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/05-primary/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/05-primary/src/test/java/com/myproject/springcoredemo/SpringcoredemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/06-lazy-initialisation/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/06-lazy-initialisation/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/06-lazy-initialisation/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/06-lazy-initialisation/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/06-lazy-initialisation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/06-lazy-initialisation/src/main/java/com/myproject/springcoredemo/SpringcoredemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/06-lazy-initialisation/src/main/java/com/myproject/springcoredemo/common/BaseballCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/06-lazy-initialisation/src/main/java/com/myproject/springcoredemo/common/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/06-lazy-initialisation/src/main/java/com/myproject/springcoredemo/common/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/06-lazy-initialisation/src/main/java/com/myproject/springcoredemo/common/TennisCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/06-lazy-initialisation/src/main/java/com/myproject/springcoredemo/common/TrackCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/06-lazy-initialisation/src/main/java/com/myproject/springcoredemo/rest/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/06-lazy-initialisation/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/06-lazy-initialisation/src/test/java/com/myproject/springcoredemo/SpringcoredemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/07-bean-scopes/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/07-bean-scopes/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/07-bean-scopes/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/07-bean-scopes/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/07-bean-scopes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/07-bean-scopes/src/main/java/com/myproject/springcoredemo/SpringcoredemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/07-bean-scopes/src/main/java/com/myproject/springcoredemo/common/BaseballCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/07-bean-scopes/src/main/java/com/myproject/springcoredemo/common/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/07-bean-scopes/src/main/java/com/myproject/springcoredemo/common/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/07-bean-scopes/src/main/java/com/myproject/springcoredemo/common/TennisCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/07-bean-scopes/src/main/java/com/myproject/springcoredemo/common/TrackCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/07-bean-scopes/src/main/java/com/myproject/springcoredemo/rest/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/07-bean-scopes/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/07-bean-scopes/src/test/java/com/myproject/springcoredemo/SpringcoredemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/08-bean-lifecycle-methods/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/08-bean-lifecycle-methods/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/08-bean-lifecycle-methods/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/08-bean-lifecycle-methods/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/08-bean-lifecycle-methods/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/08-bean-lifecycle-methods/src/main/java/com/myproject/springcoredemo/SpringcoredemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/08-bean-lifecycle-methods/src/main/java/com/myproject/springcoredemo/common/BaseballCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/08-bean-lifecycle-methods/src/main/java/com/myproject/springcoredemo/common/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/08-bean-lifecycle-methods/src/main/java/com/myproject/springcoredemo/common/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/08-bean-lifecycle-methods/src/main/java/com/myproject/springcoredemo/common/TennisCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/08-bean-lifecycle-methods/src/main/java/com/myproject/springcoredemo/common/TrackCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/08-bean-lifecycle-methods/src/main/java/com/myproject/springcoredemo/rest/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/08-bean-lifecycle-methods/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/08-bean-lifecycle-methods/src/test/java/com/myproject/springcoredemo/SpringcoredemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/src/main/java/com/myproject/springcoredemo/SpringcoredemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/src/main/java/com/myproject/springcoredemo/common/BaseballCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/src/main/java/com/myproject/springcoredemo/common/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/src/main/java/com/myproject/springcoredemo/common/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/src/main/java/com/myproject/springcoredemo/common/SwimCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/src/main/java/com/myproject/springcoredemo/common/TennisCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/src/main/java/com/myproject/springcoredemo/common/TrackCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/src/main/java/com/myproject/springcoredemo/config/SportConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/src/main/java/com/myproject/springcoredemo/rest/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/02-spring-boot-spring core/09-java-config-bean/src/test/java/com/myproject/springcoredemo/SpringcoredemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/03-spring-boot-jpa-crud/00-starter-sql-scripts/01-create-user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Java/SpringBoot3/03-spring-boot-jpa-crud/00-starter-sql-scripts/02-student-tracker.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosI/aula16_CRUD_e_JavaWeb/TrabalhoEmDuplasII/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosI/aula19_avaliacaoSubstitutiva/Avaliação Substitutiva.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosII/BaseDiscos.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosII/BaseDiscos2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosII/Lista 1.3.3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosII/Lista 1.4.1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosII/Untitled.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosII/aula03_31082023.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosII/aula03_310823_exercicioEstrelinha.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosII/aula03_ExercicioRevisao_BaseBD2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosII/aula05_210923.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosII/aula06_28092023-subconsultas.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosII/aula07_0510_views.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosII/aula_08.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosII/bd2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. HTML-CSS/Mimo/1. HTML Basics/1. LinkTree site/.hintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Java/ADS-programacaoII/aula09_10_livrariaV2/aula09_sistemaLivrariaV2/SistemaLivraria/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3. Java/ADS-programacaoII/aula09_10_livrariaV2/aula09_sistemaLivrariaV2/SistemaLivraria/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/out/production/Grafos/Grafo.class" beforeDir="false" afterPath="$PROJECT_DIR$/3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/out/production/Grafos/Grafo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/out/production/Grafos/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/out/production/Grafos/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/src/Aresta.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/src/Aresta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Java/ADS-programacaoII/aula14_sistemaBancario/SistemaBancario/out/production/SistemaBancario/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/3. Java/ADS-programacaoII/aula14_sistemaBancario/SistemaBancario/out/production/SistemaBancario/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosI/aula16_CRUD_e_JavaWeb/TrabalhoEmDuplasII/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4. SQL/ADS-BancoDeDadosI/aula16_CRUD_e_JavaWeb/TrabalhoEmDuplasII/.idea/compiler.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2Zk2QAFJWVm8QIYQwat4i2tMsEk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/v3gc/ProgrammingDir/While-true-code"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a59159c-4714-4642-bd36-d98c671046d7" name="Changes" comment="" />
+      <created>1702951737230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702951737230</updated>
+    </task>
+    <servers />
+  </component>
+</project>
