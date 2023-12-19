@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="01670a87-d175-4f50-9cc4-b703836ee51e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../3. Java/ADS-programacaoII/aula09_10_livrariaV2/aula09_sistemaLivrariaV2/SistemaLivraria/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3. Java/ADS-programacaoII/aula09_10_livrariaV2/aula09_sistemaLivrariaV2/SistemaLivraria/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/out/production/Grafos/Grafo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/out/production/Grafos/Grafo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/out/production/Grafos/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/out/production/Grafos/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/src/Aresta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/src/Aresta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3. Java/ADS-programacaoII/aula11_encapsulamento_agregacao_composicao/aula11_grafos/Grafos/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../3. Java/ADS-programacaoII/aula14_sistemaBancario/SistemaBancario/out/production/SistemaBancario/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3. Java/ADS-programacaoII/aula14_sistemaBancario/SistemaBancario/out/production/SistemaBancario/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2SULMxPyHf5PcYTtNhhVqVo6IrW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/v3gc/ProgrammingDir/While-true-code/4. SQL/ADS-BancoDeDadosI/aula16_CRUD_e_JavaWeb/TrabalhoEmDuplasII&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01670a87-d175-4f50-9cc4-b703836ee51e" name="Changes" comment="" />
+      <created>1689196169252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689196169252</updated>
+    </task>
+    <servers />
+  </component>
+</project>
