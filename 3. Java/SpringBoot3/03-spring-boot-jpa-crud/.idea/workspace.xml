@@ -1,34 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a59159c-4714-4642-bd36-d98c671046d7" name="Changes" comment="" />
+    <list default="true" id="65dfdfb8-cffe-4d03-970f-e0a891759a4a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-  }
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
 }]]></component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="9750e16c-f744-4c86-b05f-a7dbb54a9227" />
-        <option name="url" value="https://github.com/vickytrois/While-true-code.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="2Zk2QAFJWVm8QIYQwat4i2tMsEk" />
+  <component name="ProjectId" id="2ZlL4UZQvAhpHLov6EQ99I5nTzJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,18 +26,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/v3gc/ProgrammingDir/While-true-code",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "last_opened_file_path": "/Users/v3gc/ProgrammingDir/While-true-code/3. Java/SpringBoot3/03-spring-boot-jpa-crud"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8a59159c-4714-4642-bd36-d98c671046d7" name="Changes" comment="" />
-      <created>1702951737230</created>
+      <changelist id="65dfdfb8-cffe-4d03-970f-e0a891759a4a" name="Changes" comment="" />
+      <created>1702991527475</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1702951737230</updated>
+      <updated>1702991527475</updated>
     </task>
     <servers />
   </component>
