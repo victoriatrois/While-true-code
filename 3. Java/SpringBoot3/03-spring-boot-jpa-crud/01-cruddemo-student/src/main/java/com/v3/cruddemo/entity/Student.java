@@ -66,11 +66,10 @@ public class Student {
 
     @Override
     public String toString() {
-        return "StudentDAO{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                '}';
+        return "Student " + id + " = {\n" +
+                "\tfirstName: " + firstName + "\n" +
+                "\tlastName: " + lastName + "\n" +
+                "\temail: " + email + "\n" +
+                "}\n";
     }
 }
