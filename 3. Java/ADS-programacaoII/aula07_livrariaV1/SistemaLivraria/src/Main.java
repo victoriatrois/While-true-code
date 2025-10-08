@@ -10,6 +10,8 @@ public class Main {
         Livro livro2 = new Livro("nomeLivro2", "editora2", "categoria1", LocalDate.of(1998, 1, 1), 90, 90);
         Livro livro3 = new Livro("nomeLivro3", "editora2", "categoria2", LocalDate.of(2012, 1, 1), 55.61f, 30);
 
+        livro1.getAno();
+
         livroCadastrado.add(livro1);
         livroCadastrado.add(livro2);
         livroCadastrado.add(livro3);
